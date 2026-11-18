@@ -21,21 +21,22 @@
         <section class="before">
             <h3>旧版 · 登记发布 2026-08-21</h3>
             <p class="value">2029-11 · 预计 (ESTIMATED)</p>
-            <p class="date">采集 2026-08-23 02:31:34 UTC</p>
+            <p class="date">提交 2026-08-20 · 采集 2026-08-23 02:31:34 UTC</p>
             <a href="https://clinicaltrials.gov/study/NCT05006716?tab=history">官方登记历史</a>
             <a href="../evidence/22633658ce5c59d38dc83e8d-before_file.json">固定证据 JSON</a>
         </section>
         <section class="after">
             <h3>新版 · 登记发布 2026-10-05</h3>
             <p class="value">2030-03 · 预计 (ESTIMATED)</p>
-            <p class="date">采集 2026-11-18 03:20:33 UTC</p>
+            <p class="date">提交 2026-09-30 · 采集 2026-11-18 03:20:33 UTC</p>
             <a href="https://clinicaltrials.gov/api/v2/studies/NCT05006716">官方当前登记 JSON</a>
             <a href="../evidence/22633658ce5c59d38dc83e8d-after_file.json">固定证据 JSON</a>
         </section>
     </div>
     <details open>
         <summary>证据定位与解读</summary>
-        <p>在官方登记历史中按上述发布日期选取版本。当前官方 JSON 会继续更新，固定证据仅保留采集版本中的这一字段。</p>
+        <p>官方 Record History 按提交日（Submitted Date）列出版本。选择旧版 2026-08-20 和新版 2026-09-30，再核对登记字段。 当前官方 JSON 会继续更新，固定证据仅保留采集版本中的这一字段。</p>
+        <p>首版核对指引已更正。官方历史列表使用提交日，证据仍同时保留发布日期。</p>
         <p>登记字段 <code>protocolSection.statusModule.completionDateStruct</code></p>
         <p>研究完成日期通常涵盖主要、次要终点及不良事件的最终数据采集。若日期由预计改为实际，可向团队核对长期随访和安全性数据的截止范围。</p>
         <p>CaDAnCe-101 的这版登记是一项涵盖多种 B 细胞肿瘤的 I/II 期研究。I 期包括单药剂量递增与扩展，主要观察不良事件和剂量；II 期为单药扩展，主要终点为客观缓解率（ORR）。</p><p>若查看入组字段，645→689 是全研究目标入组人数的变化。按 MCL 队列评估时，需要单独核对队列计划与实际人数。</p><p>官方设计与终点字段 <code>protocolSection.identificationModule.briefTitle</code>、<code>protocolSection.designModule.phases</code>、<code>protocolSection.armsInterventionsModule.armGroups</code>、<code>protocolSection.outcomesModule.primaryOutcomes</code></p>
@@ -48,14 +49,15 @@
 
 研究 CaDAnCe-101（NCT05006716）
 字段 研究完成日期
-旧版 2029-11 · 预计 (ESTIMATED)（登记版本发布 2026-08-21；采集 2026-08-23T02:31:34+00:00）
-新版 2030-03 · 预计 (ESTIMATED)（登记版本发布 2026-10-05；采集 2026-11-18T03:20:33+00:00）
+旧版 2029-11 · 预计 (ESTIMATED)（登记版本发布 2026-08-21；提交 2026-08-20；采集 2026-08-23T02:31:34+00:00）
+新版 2030-03 · 预计 (ESTIMATED)（登记版本发布 2026-10-05；提交 2026-09-30；采集 2026-11-18T03:20:33+00:00）
 
 公开证据
 旧版官方历史记录 https://clinicaltrials.gov/study/NCT05006716?tab=history
-在历史记录中选择发布日期 2026-08-21，核对字段 protocolSection.statusModule.completionDateStruct。
+官方 Record History 按提交日（Submitted Date）列出版本。选择旧版 2026-08-20 和新版 2026-09-30，再核对登记字段。
 当前官方登记 JSON https://clinicaltrials.gov/api/v2/studies/NCT05006716
-核对字段 protocolSection.statusModule.completionDateStruct，并在历史记录中选择发布日期 2026-10-05 以复核本次采集的版本。当前 JSON 会继续更新。
+核对字段 protocolSection.statusModule.completionDateStruct；当前 JSON 会继续更新。固定证据保留采集的对应登记值。
+首版核对指引已更正。官方历史列表使用提交日，证据仍同时保留发布日期。
 官方术语表 https://clinicaltrials.gov/study-basics/glossary
 两次快照只证明各自登记版本中的值。首次发生变更的准确日期待核实。
 

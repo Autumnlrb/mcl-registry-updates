@@ -2,14 +2,15 @@ MCL 登记变更 · 公司模型核对材料
 
 研究 CaDAnCe-101（NCT05006716）
 字段 入组人数
-旧版 645 · 预计 (ESTIMATED)（登记版本发布 2026-08-21；采集 2026-08-23T02:31:34+00:00）
-新版 689 · 预计 (ESTIMATED)（登记版本发布 2026-10-05；采集 2026-11-18T03:20:33+00:00）
+旧版 645 · 预计 (ESTIMATED)（登记版本发布 2026-08-21；提交 2026-08-20；采集 2026-08-23T02:31:34+00:00）
+新版 689 · 预计 (ESTIMATED)（登记版本发布 2026-10-05；提交 2026-09-30；采集 2026-11-18T03:20:33+00:00）
 
 公开证据
 旧版官方历史记录 https://clinicaltrials.gov/study/NCT05006716?tab=history
-在历史记录中选择发布日期 2026-08-21，核对字段 protocolSection.designModule.enrollmentInfo。
+官方 Record History 按提交日（Submitted Date）列出版本。选择旧版 2026-08-20 和新版 2026-09-30，再核对登记字段。
 当前官方登记 JSON https://clinicaltrials.gov/api/v2/studies/NCT05006716
-核对字段 protocolSection.designModule.enrollmentInfo，并在历史记录中选择发布日期 2026-10-05 以复核本次采集的版本。当前 JSON 会继续更新。
+核对字段 protocolSection.designModule.enrollmentInfo；当前 JSON 会继续更新。固定证据保留采集的对应登记值。
+首版核对指引已更正。官方历史列表使用提交日，证据仍同时保留发布日期。
 官方术语表 https://clinicaltrials.gov/study-basics/glossary
 两次快照只证明各自登记版本中的值。首次发生变更的准确日期待核实。
 

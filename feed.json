@@ -16,6 +16,8 @@
       "previous_retrieved_at": "2026-08-23T02:31:34+00:00",
       "current_retrieved_at": "2026-11-18T03:20:23+00:00",
       "evidence_basis": "official_snapshot_comparison",
+      "previous_submit_date": "2026-05-15",
+      "submit_date": "2026-09-25",
       "id": "d60b5598485676c1b5f2878c",
       "before_file": "evidence/d60b5598485676c1b5f2878c-before_file.json",
       "after_file": "evidence/d60b5598485676c1b5f2878c-after_file.json"
@@ -34,6 +36,8 @@
       "previous_retrieved_at": "2026-08-23T02:31:34+00:00",
       "current_retrieved_at": "2026-11-18T03:20:33+00:00",
       "evidence_basis": "official_snapshot_comparison",
+      "previous_submit_date": "2026-08-20",
+      "submit_date": "2026-09-30",
       "id": "5d902470d281c85d183dbe94",
       "before_file": "evidence/5d902470d281c85d183dbe94-before_file.json",
       "after_file": "evidence/5d902470d281c85d183dbe94-after_file.json"
@@ -52,6 +56,8 @@
       "previous_retrieved_at": "2026-08-23T02:31:34+00:00",
       "current_retrieved_at": "2026-11-18T03:20:33+00:00",
       "evidence_basis": "official_snapshot_comparison",
+      "previous_submit_date": "2026-08-20",
+      "submit_date": "2026-09-30",
       "id": "05e7311317cbf8cc5803817f",
       "before_file": "evidence/05e7311317cbf8cc5803817f-before_file.json",
       "after_file": "evidence/05e7311317cbf8cc5803817f-after_file.json"
@@ -70,6 +76,8 @@
       "previous_retrieved_at": "2026-08-23T02:31:34+00:00",
       "current_retrieved_at": "2026-11-18T03:20:33+00:00",
       "evidence_basis": "official_snapshot_comparison",
+      "previous_submit_date": "2026-08-20",
+      "submit_date": "2026-09-30",
       "id": "22633658ce5c59d38dc83e8d",
       "before_file": "evidence/22633658ce5c59d38dc83e8d-before_file.json",
       "after_file": "evidence/22633658ce5c59d38dc83e8d-after_file.json"

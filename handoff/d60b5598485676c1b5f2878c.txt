@@ -2,14 +2,15 @@ MCL 登记变更 · 公司模型核对材料
 
 研究 MANGROVE（NCT04002297）
 字段 主要完成日期
-旧版 2027-03 · 预计 (ESTIMATED)（登记版本发布 2026-05-18；采集 2026-08-23T02:31:34+00:00）
-新版 2026-04-27 · 实际 (ACTUAL)（登记版本发布 2026-09-30；采集 2026-11-18T03:20:23+00:00）
+旧版 2027-03 · 预计 (ESTIMATED)（登记版本发布 2026-05-18；提交 2026-05-15；采集 2026-08-23T02:31:34+00:00）
+新版 2026-04-27 · 实际 (ACTUAL)（登记版本发布 2026-09-30；提交 2026-09-25；采集 2026-11-18T03:20:23+00:00）
 
 公开证据
 旧版官方历史记录 https://clinicaltrials.gov/study/NCT04002297?tab=history
-在历史记录中选择发布日期 2026-05-18，核对字段 protocolSection.statusModule.primaryCompletionDateStruct。
+官方 Record History 按提交日（Submitted Date）列出版本。选择旧版 2026-05-15 和新版 2026-09-25，再核对登记字段。
 当前官方登记 JSON https://clinicaltrials.gov/api/v2/studies/NCT04002297
-核对字段 protocolSection.statusModule.primaryCompletionDateStruct，并在历史记录中选择发布日期 2026-09-30 以复核本次采集的版本。当前 JSON 会继续更新。
+核对字段 protocolSection.statusModule.primaryCompletionDateStruct；当前 JSON 会继续更新。固定证据保留采集的对应登记值。
+首版核对指引已更正。官方历史列表使用提交日，证据仍同时保留发布日期。
 官方术语表 https://clinicaltrials.gov/study-basics/glossary
 两次快照只证明各自登记版本中的值。首次发生变更的准确日期待核实。
 
