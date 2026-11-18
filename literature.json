@@ -225,9 +225,140 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/35657079/"
         }
       ]
+    },
+    {
+      "data_cutoff": "2026-06-01",
+      "discovered_at": "2026-11-18T03:53:58.476198+00:00",
+      "id": "ash:2026:237",
+      "limitations": [
+        "摘要未给个体信息、CAR-T 暴露 ITT 亚组疗效、CAR-T 至试验治疗间隔分布或可直接对齐的 BCL2 抑制剂暴露结果。4 人在早期应答评估前离组、另 2 人未接受 glofitamab，可评估集与 ITT 不可互换。",
+        "12 个月 PFS 是时间事件估计，保留置信区间，勿按百分比与总人数反推事件数。摘要中的历史比较未经本试验随机化，不能支持相对疗效结论。"
+      ],
+      "next_steps": [
+        "医学复核：12 月 12 日口头报告材料实际公开后，复核患者流、BCL2 暴露、CAR-T 失败与暴露口径、既往 CD20 治疗及 ≥3 级不良事件归因。",
+        "统计复核：核对风险集、删失、后续同种移植和敏感性分析，确认可比较的人群、疗效起算点、评估方法与随访成熟度。",
+        "项目复评：只有 AZD5492 可解释的 MCL 单药分层及安全性资料到齐后，才讨论项目差异化或内部方案调整。"
+      ],
+      "presentation_date": "2026-12-12",
+      "published_at": "2026-11-04",
+      "review_status": "primary_source_checked",
+      "source_url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=689800",
+      "summary": "高风险复发/难治 MCL 的 glofitamab＋来那度胺试点增加了 CAR-T 暴露亚组线索。首要问题是 ITT 与可评估集之间的选择及早期毒性。TITANium 若拟评估相似人群，需以 AZD5492 单药自己的分层数据检验。",
+      "title": "ASH #237 · LyCon 试点的 CAR-T 暴露分层",
+      "trial_ids": [
+        "NCT06192888",
+        "NCT07460362",
+        "NCT06542250"
+      ],
+      "findings": [
+        {
+          "label": "公开时间与身份",
+          "text": "ASH 摘要 11 月 4 日公开，数据截至 2026 年 6 月 1 日。12 月 12 日安排口头报告，当前可引用的是会议摘要。以研究标题、联合方案、先前 BTKi 失败条件、机构和 39 例登记入组交叉核对，匹配 MSK LyCon NCT06192888（23-319）。登记暂无结构化结果。"
+        },
+        {
+          "label": "患者流和主要终点",
+          "text": "39 人入组并纳入 ITT，均既往接受共价 BTKi；21/39 既往接受 CAR-T。2 人在 obinutuzumab 预处理后迅速进展而未接受 glofitamab，剩余 37 人可评估毒性；其后 4 人在第 3 周期首日应答评估前离组，剩余 33 人可评估疗效。方案为 obinutuzumab 预处理、glofitamab＋来那度胺。主要终点是前 3 周期联合治疗可行性，预设至少 26/39，观察到 31/39 达标。"
+        },
+        {
+          "label": "ITT、可评估集与 CAR-T 亚组",
+          "text": "中位随访 13 个月。ITT 39 人的 ORR 79%、CR 62%，12 个月 PFS 64%（95% CI 48%–84%）。疗效可评估 33 人的 ORR 94%、CR 73%，12 个月 PFS 73%（95% CI 57%–93%）。19 名既往 CAR-T 暴露者的 ORR 89%、CR 63%，12 个月 PFS 68%（95% CI 48%–97%）；14 名 CAR-T 未暴露者分别为 100%、86%、79%（95% CI 56%–100%）。亚组来自 33 人可评估集，摘要未给 CAR-T 暴露 ITT 亚组的对应估计。"
+        },
+        {
+          "label": "完全缓解的持续性",
+          "text": "ASH 摘要 Results 报告 12 个月完全缓解持续率为 83%（95% CI 66%–100%）。摘要未说明这一估计的起算点、风险集或既往 CAR-T 暴露亚组的对应数值，不能把 83% 视为 33 名疗效可评估者中持续完全缓解的比例，也不能用于描述 19 名既往 CAR-T 暴露者。"
+        },
+        {
+          "label": "早期安全性",
+          "text": "在 37 人毒性可评估集中，29 人发生 CRS，4 人发生 3 级 CRS（均需 ICU），19 人发生严重不良事件。2 起 ICANS 分别为 2 级和 3 级。剂量调整、早期停药、死亡和进展宜在报告公开后按起始治疗集与时间窗复核。"
+        },
+        {
+          "label": "与 ASH #1780 的关系",
+          "text": "#1780 明示 NCT07460362（ML45833，北京大学第三医院），为另一登记方案并有来那度胺维持。其 13 人均为 BTKi/BCL2 抑制剂双耐药，摘要称 30.8% 曾在 CAR-T 后复发，#237 未报告同口径 BCL2 双耐药分母。公开材料能区分两项研究；个体重叠无法逐人核定，分别保留证据，不合并分母或把 C3/C6 固定时点与其他分析集直接比较。"
+        }
+      ],
+      "assessment": [
+        {
+          "label": "可比人群",
+          "text": "TITANium 公开登记为 AZD5492 单药 I/II 期剂量递增与扩展，纳入不同 CD20 阳性 B 细胞恶性肿瘤，要求既往至少两线。LyCon 允许至少一线且要求 BTKi 失败，并排除既往 CD20×CD3 双抗。对照登记时还需考虑细胞治疗洗脱期（LyCon 30 天、TITANium 90 天）及 TITANium 既往 ≥3 级 CRS 或 ICANS 的排除。TITANium 登记暂无结构化结果。"
+        },
+        {
+          "label": "历史参照的起点与选择",
+          "text": "独立核对 Epstein-Peterson 等的 15 中心回顾性研究。384 名接受 CAR-T 者中 135 名后续进展，从 CAR-T 后进展日起中位 PFS 为 2.5 个月、OS 为 5.4 个月；这一组包含 17 名未接受后续治疗者。#237 的 19 名为既往 CAR-T 暴露、已存活至进入 LyCon 且有疗效评估者。CAR-T 暴露与已确认进展的定义、入组及评估造成的选择、PFS 起点和统计量均需对齐。公开摘要未充分交代亚组起算点，不能用 12 个月 PFS 与历史中位数推算治疗改善。"
+        },
+        {
+          "label": "项目内的条件判断",
+          "text": "若内部目标产品特征将 BTKi 失败／CAR-T 暴露 MCL 列为优先人群，医学与统计可先核对分层样本量、暴露次序、失败定义、缺失评估与桥接治疗。在 AZD5492 的预先定义分析集中分列 ORR、CR、DoR、PFS、随访与置信区间，同时核对 CRS／ICANS、感染和停药的分母及观察窗。"
+        },
+        {
+          "label": "当前决策",
+          "text": "将 LyCon 作为治疗序列和安全管理的竞争线索，维持现有结论。小样本单臂可行性研究、联合治疗与病例选择，限制对 AZD5492 效应、剂量、安全阈值或监管可接受性的推断。若分层不足，先补描述性分析及数据差距，不从外部百分比推导目标值。"
+        },
+        {
+          "label": "交接质量校验",
+          "text": "MiniMax 整理 14 项分析集、疗效和安全性字段，本地逐项与 ASH 摘要核对。GLM 生成分母回归测试，核验能识别把 21 名基线暴露者写成疗效亚组、或把 ITT 分母写成疗效可评估分母的错误。MiMo 生成协议匹配测试，核验能区分三个登记号，并拒绝缺失登记号的记录。Dots 提供线索，Hermes 复核提取了完全缓解持续率，本地对照同版 ASH 摘要核实数值并补明分母和亚组限制。医学解释与复评条件仍待医学复核。"
+        }
+      ],
+      "sources": [
+        {
+          "data_cutoff": "2026-06-01",
+          "label": "ASH 2026 #237 官方摘要",
+          "locator": "ABSTRACT：Methods；Results 各段；口头报告场次",
+          "published_at": "2026-11-04",
+          "url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=689800"
+        },
+        {
+          "data_cutoff": null,
+          "label": "ASH #237 官方场次",
+          "locator": "#237；12 月 12 日口头报告安排",
+          "published_at": null,
+          "url": "https://onlineprogram.hematology.org/session-details.aspx?sid=118962"
+        },
+        {
+          "data_cutoff": null,
+          "label": "ASH 年会摘要发布时间表",
+          "locator": "Key Dates and Deadlines",
+          "published_at": null,
+          "url": "https://www.hematology.org/meetings/annual-meeting/abstracts"
+        },
+        {
+          "data_cutoff": null,
+          "label": "LyCon 登记 NCT06192888",
+          "locator": "Identification / Eligibility / Arms / Enrollment / Posted Results",
+          "published_at": "2026-03-27",
+          "url": "https://clinicaltrials.gov/study/NCT06192888"
+        },
+        {
+          "data_cutoff": null,
+          "label": "ASH 2026 #1780 官方摘要",
+          "locator": "Methods / Results：NCT07460362、分母、维持治疗",
+          "published_at": "2026-11-04",
+          "url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=688136"
+        },
+        {
+          "data_cutoff": null,
+          "label": "NCT07460362 研究登记",
+          "locator": "Identification / Sponsor / Study Design",
+          "published_at": "2026-03-10",
+          "url": "https://clinicaltrials.gov/study/NCT07460362"
+        },
+        {
+          "data_cutoff": null,
+          "label": "TITANium 登记 NCT06542250",
+          "locator": "Study Design / Arms / Eligibility / Posted Results",
+          "published_at": "2026-09-30",
+          "url": "https://clinicaltrials.gov/study/NCT06542250"
+        },
+        {
+          "data_cutoff": null,
+          "label": "CAR-T 后进展历史队列原论文｜Epstein-Peterson 等",
+          "locator": "Methods：从进展起算；Results：384 名 CAR-T 接受者、135 名进展者及后续治疗分布；PMCID PMC12848353",
+          "published_at": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40763269/"
+        }
+      ]
     }
   ],
-  "generated_at": "2026-11-18T04:12:03.916726+00:00",
+  "generated_at": "2026-11-18T05:26:50.263354+00:00",
   "items": [
     {
       "data_cutoff": null,
@@ -440,17 +571,19 @@
       "url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=689802"
     },
     {
-      "data_cutoff": null,
+      "data_cutoff": "2026-06-01",
       "discovered_at": "2026-11-18T03:53:58.476198+00:00",
       "doi": null,
       "id": "ash:2026:237",
       "kind": "meeting_abstract",
       "last_seen_at": "2026-11-18T03:53:58.476198+00:00",
       "published_at": "2026-11-04",
-      "review_status": "awaiting_review",
+      "review_status": "primary_source_checked",
       "source": "ash",
       "title": "A lycon multicenter pilot study of glofitamab and lenalidomide in relapsed/refractory mantle cell lymphoma: Promising activity in patients failing BTK inhibitor and CAR T-cell therapy",
-      "trial_ids": [],
+      "trial_ids": [
+        "NCT06192888"
+      ],
       "url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=689800"
     },
     {

@@ -462,12 +462,16 @@ Promise.all([load('literature.json'),load('regulatory.json')]).then(([lit,reg])=
         (i.trial_ids?.length?'<p class="muted">'+safe(i.trial_ids.join(' · '))+'</p>':'')+(i.abstract ? '<details><summary>查看摘要</summary><p>'+safe(i.abstract)+'</p></details>' : '')));
   }
   drawPapers();
-  const ashCase = lit?.cases?.find(c => c.id === 'ash:2026:1780');
-  if (ashCase?.review_status === "primary_source_checked") {
-    const caseLink = document.createElement('a');
-    caseLink.className = 'more';
-    caseLink.href = '#impact';
-    caseLink.textContent = 'ASH 1780 · 查看对 TITANium 项目的影响 →';
+  const projectCases = (lit?.cases ?? [])
+    .filter(row => row.review_status === 'primary_source_checked' && row.id !== 'ash:2026:6')
+    .sort((a, b) => b.discovered_at.localeCompare(a.discovered_at));
+  for (const row of projectCases) {
+    const caseLink = document.createElement('p');
+    const anchor = document.createElement('a');
+    anchor.className = 'more';
+    anchor.href = '#impact';
+    anchor.textContent = row.title + ' · 查看项目评估 →';
+    caseLink.append(anchor);
     $('papers').before(caseLink);
   }
   cards('fda',reg?.events,'暂无公开监管快照。',i=>publishedCard(i,[i.date,regulatoryStages[i.stage] || i.stage,i.status].filter(Boolean).join(' · '),'<p>'+safe(i.summary)+'</p>'+(i.locator?'<p class="muted">材料定位 '+safe(i.locator)+'</p>':'')+(i.vote?'<p>'+safe(typeof i.vote==='string'?i.vote:JSON.stringify(i.vote))+'</p>':'')+((i.official_pdf || i.guidance_url)?'<p>'+link(i.official_pdf,'联邦公报 PDF')+' '+link(i.guidance_url,'FDA 指南')+'</p>':'')));
