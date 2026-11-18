@@ -8,13 +8,12 @@ ASH 1780｜安全性
 CRS 12/13（92.3%），其中 3 级 1/13；≥3 级中性粒细胞减少 4/13。联合方案和短随访限制单药归因及迟发毒性评估。
 https://onlineprogram.hematology.org/paper-details.aspx?pid=688136
 
-ASCO 7006｜同类机制单药的长期参照
+2026-05-27 发布｜ASCO 7006 单药历史参照
 Glofitamab I/II 期 NP30179 的同一 R/R MCL 队列，2025-09-08 截止，61 人入组、60 人治疗，OS 随访中位 41.5 个月。总体 ORR/CR 为 82%/77%，PFS 中位 18.0 个月；既往 BTKi 暴露 34 人，ORR/CR 73.5%/70.6%，PFS 11.3 个月（95% CI 5.1–32.6）、CR 持续期 15.4 个月（8.3–不可估），33 个月仍保持应答的估计比例 41.0%。安全性 42/60 有 CRS，摘要报 3–4 级 11.6%。
 https://www.asco.org/abstracts-presentations/260518
 
-同行评议原论文｜同一个 NP30179 队列的更早分析
+2024-10-04 在线发表｜NP30179 更早的同行评议分析
 2023-09-04 截止，疗效可评估 60 人，ORR 85.0%、CR 78.3%；既往 BTKi 治疗 31 人，ORR 74.2%、CR 71.0%。总体随访中位 19.6 个月。论文的疗效可评估集与 ASCO 后续分析的分母及分组有差异，不能把两次报告当作独立验证，亦不能把率的差值当作进展。
-https://pubmed.ncbi.nlm.nih.gov/39365960/
 
 早线
 13 名患者都处于复发/难治、双耐药场景。早线竞争另外跟踪 2026 ASH #6 的 MANGROVE 随机 III 期。若前线 BTKi 应用扩大，TITANium 后线队列可能纳入更多既往 BTKi 暴露者，原有病例组合可能随地区和入组时期变化。
@@ -72,4 +71,4 @@ FDA 审评立场｜STARGLO | 印刷页 42–64、77–78；The FDA’s Position 
 请在公司批准的环境使用已授权的当前项目文件。先确认 TPP（目标产品特征）与方案、SAP（统计分析计划）版本，列出目标人群、既往 BTKi／BCL2 抑制剂及 CAR-T 暴露、终点定义与成熟度、剂量和安全阈值。按条记录原件定位、分析集、分母、数据截止、缺口和适用性。针对每个决策分支给出内部结论、下一步动作、责任岗位、复核日期及触发复评的公开证据。仅在公司批准的环境处理保密项目材料，勿随外部网页检索或服务请求发送。
 
 固定版证据与公文定位
-https://autumnlrb.github.io/mcl-registry-updates/evidence/titanium-7187761113f56ab897250075.json
+https://autumnlrb.github.io/mcl-registry-updates/evidence/titanium-83435e626d1316ea1e587110.json

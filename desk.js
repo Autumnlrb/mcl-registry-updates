@@ -66,6 +66,103 @@ function studyArchive(study) {
   }).join('');
   return '<details><summary>历史设计与中国大陆、台湾、香港中心</summary><p class="muted">快照 '+safe(data.sample.snapshot)+'。计数为快照记录条数。中心当前状态请回查官方登记。</p><ul>'+designRows+'</ul><ul>'+venues+'</ul></details>';
 }
+const stageLabels = ['I','I/II','II','III','其他'];
+const radarColors = ['#28756c','#3a608e','#97692e','#84704b','#765983','#496f47','#8b5360','#367783'];
+const narrowRadar = window.matchMedia('(max-width: 760px)');
+let filteredRadarStudies = [];
+let sectorMode = !narrowRadar.matches;
+
+function switchRadar(useSector) {
+  sectorMode = useSector;
+  $('sector-panel').hidden = !useSector;
+  $('phase-map').hidden = useSector;
+  $('slice-label').hidden = !useSector;
+  $('sector-mode').setAttribute('aria-pressed',String(useSector));
+  $('list-mode').setAttribute('aria-pressed',String(!useSector));
+  if (useSector) sectorRadar(filteredRadarStudies);
+}
+
+function sectorRadar(results) {
+  const selection = $('radar-slice').value;
+  const grouped = new Map();
+  results.forEach(s=>{
+    const keys = selection==='sponsor'
+      ? [s.lead || '申办方待核']
+      : [...new Set((s.drugs ?? []).map(d=>profiles[d]?.[selection==='target'?0:1] || '待核'))];
+    (keys.length?keys:['待核']).forEach(key=>{
+      if (!grouped.has(key)) grouped.set(key,[]);
+      grouped.get(key).push(s);
+    });
+  });
+  const sectors = [...grouped.entries()].sort(([a],[b])=>a.localeCompare(b,'zh-CN'));
+  const canvas = $('sector-scale');
+  const ctx = canvas.getContext('2d');
+  ctx.resetTransform();
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  ctx.scale(2,2);
+  ctx.translate(250,250);
+  const n = sectors.length;
+  if (!n) {
+    $('sector-points').innerHTML='';
+    $('sector-key').innerHTML=empty('当前筛选无匹配研究。');
+    return;
+  }
+  const occupied = [];
+  const points = [];
+  const radii = [42,80,119,158,197,234];
+  // The v5.5 slot layout spaces points with radial padding and angular separation.
+  const pointFor = (a,b,inner,outer) => {
+    const mid = (inner+outer)/2;
+    const spots = [mid,inner+8,outer-8].flatMap(r=>{
+      const pad = Math.min((b-a)/3,12/r);
+      const start = a+pad;
+      const end = b-pad;
+      const count = Math.max(1,Math.floor((end-start)*r/24));
+      return [(a+b)/2,...Array.from({length:count},(_,i)=>start+(end-start)*(i+.5)/count)]
+        .map(angle=>[Math.cos(angle)*r,Math.sin(angle)*r]);
+    });
+    return spots.find(([x,y])=>occupied.every(([px,py])=>Math.hypot(px-x,py-y)>=23)) || spots.at(-1);
+  };
+  sectors.forEach(([label,studiesForSector],i)=>{
+    const color = radarColors[i%radarColors.length];
+    const arc = 2*Math.PI/n;
+    const a = -Math.PI/2+i*arc;
+    const b = a+arc;
+    for(let j=0;j<stageLabels.length;j++){
+      ctx.beginPath();
+      ctx.arc(0,0,radii[j+1],a,b);
+      ctx.arc(0,0,radii[j],b,a,true);
+      ctx.closePath();
+      ctx.fillStyle=color+(j%2?'17':'0d');
+      ctx.fill();
+      ctx.strokeStyle='#d8e3de';
+      ctx.lineWidth=1;
+      ctx.stroke();
+      studiesForSector.filter(s=>(stageLabels.includes(s.phase)?s.phase:'其他')===stageLabels[j]).forEach(s=>{
+        const number = studies.indexOf(s)+1;
+        const [x,y] = pointFor(a,b,radii[j],radii[j+1]);
+        occupied.push([x,y]);
+        points.push('<button type="button" style="left:'+((250+x)/5)+'%;top:'+((250+y)/5)+'%;--point-color:'+color+'" data-open-study="'+safe(s.nct)+'" aria-label="'+safe(s.name+' · '+s.nct+' · '+label)+'" title="'+safe(s.name+' · '+s.nct)+'">'+number+'</button>');
+      });
+    }
+  });
+  ctx.textAlign='center';
+  ctx.textBaseline='middle';
+  ctx.font='bold 19px sans-serif';
+  ctx.fillStyle='#183f35';
+  ctx.fillText('MCL',0,-6);
+  ctx.font='12px sans-serif';
+  ctx.fillText(results.length+' 项研究',0,14);
+  $('sector-points').innerHTML=points.join('');
+  $('sector-key').innerHTML='<p class="sector-rings">由内向外 · I → I/II → II → III → 其他</p>'+sectors.map(([label,items],i)=>
+    '<section class="sector-group"><h3><i style="--point-color:'+radarColors[i%radarColors.length]+'"></i>'+safe(label)+'</h3>'+items.map(s=>
+      '<button type="button" data-open-study="'+safe(s.nct)+'"><span>'+(studies.indexOf(s)+1)+'</span><strong>'+safe(s.name)+'</strong><small>'+safe(s.primaryDisplayId===s.nct || !s.primaryDisplayId ? s.nct : s.primaryDisplayId+' / '+s.nct)+'</small></button>'
+    ).join('')+'</section>').join('')+'<p class="muted">点或研究编号可打开详情。环内坐标用于排布，同一研究可能属于多个切片。</p>';
+}
+$('sector-mode').onclick=()=>switchRadar(true);
+$('list-mode').onclick=()=>switchRadar(false);
+$('radar-slice').onchange=()=>sectorRadar(filteredRadarStudies);
+
 function phaseMap(results) {
   const phases = ['I','I/II','II','III'];
   const groups = [...Object.entries(names),['unknown','待归类']];
@@ -90,7 +187,9 @@ function radar() {
     && (!scene || s.scene === scene) && (!region || s.siteScope === region || s.regions?.[region] > 0)
     && (!sponsor || s.lead === sponsor)
     && (!(drug || target || mechanism) || s.drugs?.some(d=>(!drug || d===drug) && (!target || profiles[d]?.[0]===target) && (!mechanism || profiles[d]?.[1]===mechanism))));
+  filteredRadarStudies = results;
   phaseMap(results);
+  if (sectorMode) sectorRadar(results);
   $('study-table').innerHTML = results.length ? results.map(s=>{
     const events = data.events.filter(e=>e.nct===s.nct);
     const n = s.readouts?.length ?? 0;
@@ -104,7 +203,8 @@ const radarFilters = ['search','scene','region','drug','target','sponsor','mecha
 radarFilters.forEach(id=>$(id).addEventListener(id==='search'?'input':'change',radar));
 radar();
 
-document.querySelector('.radar-map').open = !window.matchMedia('(max-width: 760px)').matches;
+document.querySelector('.radar-map').open = !narrowRadar.matches;
+switchRadar(sectorMode);
 document.getElementById('radar').addEventListener('click', e=>{
   const nct = e.target.closest('[data-open-study]')?.dataset.openStudy;
   if (!nct) return;
