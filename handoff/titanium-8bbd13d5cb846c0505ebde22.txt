@@ -1,0 +1,82 @@
+MCL 项目条件评估 · TITANium
+
+ASH 1780｜公开摘要、待报告
+中国多中心、开放标签、单臂 II 期研究，登记预计入组 43 人。摘要报告 13 名双耐药患者，其中 4/13 在 CD19 CAR-T 后复发。第 3 周期 ORR 13/13、CR 8/13；第 6 周期 ORR 6/9、CR 5/9。随访中位 7 个月，3 人进展。摘要未给出数据截止日。海报排定 2026-12-12。
+https://onlineprogram.hematology.org/paper-details.aspx?pid=688136
+
+ASH 1780｜安全性
+CRS 12/13（92.3%），其中 3 级 1/13；≥3 级中性粒细胞减少 4/13。联合方案和短随访限制单药归因及迟发毒性评估。
+https://onlineprogram.hematology.org/paper-details.aspx?pid=688136
+
+2026-05-27 发布｜ASCO 7006 单药历史参照
+Glofitamab I/II 期 NP30179 的同一 R/R MCL 队列，2025-09-08 截止，61 人入组、60 人治疗，OS 随访中位 41.5 个月。总体 ORR/CR 为 82%/77%，PFS 中位 18.0 个月；既往 BTKi 暴露 34 人，ORR/CR 73.5%/70.6%，PFS 11.3 个月（95% CI 5.1–32.6）、CR 持续期 15.4 个月（8.3–不可估），33 个月仍保持应答的估计比例 41.0%。安全性 42/60 有 CRS，摘要报 3–4 级 11.6%。
+https://www.asco.org/abstracts-presentations/260518
+
+2024-10-04 在线发表｜NP30179 更早的同行评议分析
+2023-09-04 截止，疗效可评估 60 人，ORR 85.0%、CR 78.3%；既往 BTKi 治疗 31 人，ORR 74.2%、CR 71.0%。总体随访中位 19.6 个月。论文的疗效可评估集与 ASCO 后续分析的分母及分组有差异，不能把两次报告当作独立验证，亦不能把率的差值当作进展。
+
+早线
+13 名患者都处于复发/难治、双耐药场景。早线竞争另外跟踪 2026 ASH #6 的 MANGROVE 随机 III 期。若前线 BTKi 应用扩大，TITANium 后线队列可能纳入更多既往 BTKi 暴露者，原有病例组合可能随地区和入组时期变化。
+
+复发/难治
+TITANium 公共登记纳入 CD20 阳性成熟 B 细胞肿瘤，含 MCL，至少既往两线，模块 1 为 AZD5492 单药，I/II 期剂量递增/扩展。2026-09-30 登记版本为招募中、174 人计划入组（跨病种），登记没有结果。把 ASH 1780 作为极高危活动信号，把 ASCO 7006 作为单药持续性参照。
+
+post-BTKi 与 post-CAR-T
+ASH 1780 的双耐药队列比常规既往 BTKi 暴露人群更窄，注册也允许 BTKi 不耐受。TITANium 的判断需要分别列 BTKi 进展/不耐受、既往 BCL2 抑制剂、既往 CAR-T 和 CD20 治疗，报告各组剂量、入组与可评估分母。仅有 4 名 post-CAR-T 患者且未列分层疗效。
+
+靶标与作用机制
+AZD5492 靶向 CD20×TCR×CD8，为 CD8 引导的三特异性 T 细胞接合抗体。Glofitamab 是 2:1 CD20×CD3 双特异抗体，比较病例还叠加来那度胺。共享 CD20 提供机制相关性。平台、递增给药、预处理、联合组分及人群差异限制对疗效和 CRS 的外推。
+
+同为 BR 诱导，历史对照有多可比？
+三项一线随机 MCL 试验均使用苯达莫司汀加利妥昔单抗（BR）诱导。MANGROVE 对照组 253 人，诱导后观察，中位 PFS 39.2 个月（95% CI 33.5–55.7）。ECHO 主要分析的对照组 299 人，缓解者接受利妥昔单抗维持，中位 PFS 49.6 个月（36.0–64.1）。两者均为独立评审，随访中位分别为 44.1 和 49.8 个月。SHINE 对照组 262 人，缓解者也接受维持，研究者评估的中位 PFS 为 52.9 个月，随访中位 84.7 个月。
+
+对照差异如何传到 TITANium
+对照组中位数的差别值得核查。维持治疗、年龄与移植适合性、评估者和随访期均会影响比较，跨试验无法分离各因素的贡献。TITANium 为后线单药研究，内部模型应先按地区、入组时期和前线 BR 后有无维持、是否已暴露 BTKi 分层核对病例构成，再决定是否调整入组预测、外部参照选择或 TPP 的论证。
+
+决策与复核触发条件
+12 月 12 日海报公开后核对 13 人患者流、C6 分母、按既往治疗分层的 CR/DoR、风险集和 ≥3 级毒性。若第 6 周期缺失主要来自进展或停药，下调对早期应答转化为持续获益的预期；若多为尚未到访，等待成熟读出。
+
+决策与复核触发条件
+若 TITANium 公开、可核实的 MCL 和 post-BTKi 数据显示持续 CR、成熟 DoR/PFS，以及较低 ≥3 级 CRS、ICANS 或感染负担，优先评估安全性和操作差异化。若只有混合组织学 ORR 或短期反应，继续等待分层读出，不调整开发判断。
+
+决策与复核触发条件
+跟踪 GLOBRYTE（NCT06084936）随机 III 期 PFS 和安全性，把它作为后续更可靠的 post-cBTKi 比较背景。
+
+FDA · 美国 MCL 治疗顺序与 BCL2 暴露
+FDA 加速批准既往至少两线、含 BTK 抑制剂治疗的成人复发或难治性 MCL 适应证。该决定影响美国后线治疗顺序和既往 BCL-2 抑制剂暴露的构成，可帮助解读双耐药队列的代表性。
+https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220711Orig1s000Approv.pdf
+
+ODAC · DLBCL 的历史咨询表决
+问题是 STARGLO 人群与试验结果对拟议美国人群的适用性。正式纪要记载赞成 1、反对 8、弃权 0。 审议对象为移植不适合的复发/难治 DLBCL。这里只用于借鉴地区和目标人群适用性问题，MCL 疗效及批准状态须查对应原件。
+https://www.fda.gov/media/187747/download#page=10
+
+FDA · DLBCL 的监管适用性参考
+FDA 审查总人群疗效、区域差异及研究对美国目标人群和实践的适用性。北美样本有限，区域疗效差异增加解释不确定性。 审议对象为移植不适合的复发/难治 DLBCL。这里只用于借鉴地区和目标人群适用性问题，MCL 疗效及批准状态须查对应原件。
+https://www.fda.gov/media/186525/download#page=78
+
+适用性限制
+第 3 与第 6 周期的分母不同。摘要未披露其余 4 人的进展、退出、缺失或尚未到访情况，也未给出估计区间。首个分析重点应是逐周期患者流和有分母的持续应答。
+ASH 为预发表会议摘要，单臂、样本小、随访短；一年 PFS/OS 估计在这份摘要中缺少风险人数和区间。
+ASCO 7006 是更新随访，与同一 NP30179 原论文重叠。跨研究的初始反应、PFS、持续缓解及 CRS 受入组、给药、预处理及评估时间影响。
+
+公开原件及定位
+ASH 2026 #1780 原始会议摘要 | Methods / Results / Conclusions | https://onlineprogram.hematology.org/paper-details.aspx?pid=688136
+ASH 623 Poster I 官方场次 | #1780 和 12 月 12 日海报日程 | https://onlineprogram.hematology.org/session-details.aspx?sid=119032
+ASH 年会摘要发布时间表 | Key Dates and Deadlines | https://www.hematology.org/meetings/annual-meeting/abstracts
+NCT07460362 联合研究登记 | Study Design / Participation Criteria | https://clinicaltrials.gov/study/NCT07460362
+ASCO 2026 #7006 单药随访原始摘要 | Results；区分数据截止与发布日 | https://www.asco.org/abstracts-presentations/260518
+NP30179 同行评议原论文 | 全文 Results、Tables 2–5；DOI 10.1200/JCO.23.02470 | https://pubmed.ncbi.nlm.nih.gov/39365960/
+TITANium 公开登记 | Identification / Design / Eligibility / Posted Results | https://clinicaltrials.gov/study/NCT06542250
+AZD5492 申办方机制与研究说明 | Study drug：两个 CD20 结合域，TCR 与 CD8 各一个结合域 | https://us.az-oncology-pipeline.com/home/tumor-type/hematological/cll/titanium.html
+ASH 2026 #6 MANGROVE 原始会议摘要 | 首次接受治疗、移植不适合人群，独立评审 PFS HR 0.57（95% CI 0.43–0.76） | https://onlineprogram.hematology.org/paper-details.aspx?pid=695083
+GLOBRYTE 活跃注册 | 抗 CD20×CD3 单药与研究者选择的随机 III 期 | https://clinicaltrials.gov/study/NCT06084936
+ECHO｜一线 BR 对照与维持治疗 | 2025 年主要分析，Methods 与 Results；BR 对照 299 人，独立评审 PFS；正文图 2A | https://pubmed.ncbi.nlm.nih.gov/40311141/
+SHINE｜一线 BR 对照与维持治疗 | 2022 年主要分析，Methods 与 Results；BR 对照 262 人，研究者评估 PFS | https://pubmed.ncbi.nlm.nih.gov/35657079/
+FDA 加速批准函｜Sonrotoclax | 第 1 页 Accelerated Approval；NDA 220711 | https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220711Orig1s000Approv.pdf
+ODAC 正式表决｜STARGLO | 10/14 页，May 20 morning session，问题 2 | https://www.fda.gov/media/187747/download#page=10
+FDA 审评立场｜STARGLO | 印刷页 42–64、77–78；The FDA’s Position | https://www.fda.gov/media/186525/download#page=78
+
+请在公司批准的环境使用已授权的当前项目文件。先确认 TPP（目标产品特征）与方案、SAP（统计分析计划）版本，列出目标人群、既往 BTKi／BCL2 抑制剂及 CAR-T 暴露、终点定义与成熟度、剂量和安全阈值。按条记录原件定位、分析集、分母、数据截止、缺口和适用性。针对每个决策分支给出内部结论、下一步动作、责任岗位、复核日期及触发复评的公开证据。仅在公司批准的环境处理保密项目材料，勿随外部网页检索或服务请求发送。
+
+固定版证据与公文定位
+https://autumnlrb.github.io/mcl-registry-updates/evidence/titanium-8825901bc6fff5b1d00f691c.json

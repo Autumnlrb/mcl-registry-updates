@@ -178,6 +178,14 @@
         {
           "label": "与 TITANium 的适用边界",
           "text": "MANGROVE 评估初治人群的共价 BTK 抑制加 CD20 单抗；TITANium 评估既往至少两线的 CD20 阳性 B 细胞恶性肿瘤中的 CD20×TCR×CD8 接合剂。两项试验支持分析治疗顺序，无法据此估算 AZD5492 反应率或持久性。"
+        },
+        {
+          "label": "同为 BR 诱导，历史对照有多可比？",
+          "text": "三项一线随机 MCL 试验均使用苯达莫司汀加利妥昔单抗（BR）诱导。MANGROVE 对照组 253 人，诱导后观察，中位 PFS 39.2 个月（95% CI 33.5–55.7）。ECHO 主要分析的对照组 299 人，缓解者接受利妥昔单抗维持，中位 PFS 49.6 个月（36.0–64.1）。两者均为独立评审，随访中位分别为 44.1 和 49.8 个月。SHINE 对照组 262 人，缓解者也接受维持，研究者评估的中位 PFS 为 52.9 个月，随访中位 84.7 个月。"
+        },
+        {
+          "label": "对照差异如何传到 TITANium",
+          "text": "对照组中位数的差别值得核查。维持治疗、年龄与移植适合性、评估者和随访期均会影响比较，跨试验无法分离各因素的贡献。TITANium 为后线单药研究，内部模型应先按地区、入组时期和前线 BR 后有无维持、是否已暴露 BTKi 分层核对病例构成，再决定是否调整入组预测、外部参照选择或 TPP 的论证。"
         }
       ],
       "sources": [
@@ -201,11 +209,25 @@
           "locator": "Eligibility / Study Design",
           "published_at": "2026-09-30",
           "url": "https://clinicaltrials.gov/study/NCT06542250"
+        },
+        {
+          "data_cutoff": "2024-02-15",
+          "label": "ECHO｜一线 BR 对照与维持治疗",
+          "locator": "2025 年主要分析，Methods 与 Results；BR 对照 299 人，独立评审 PFS；正文图 2A",
+          "published_at": "2025-05-01",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40311141/"
+        },
+        {
+          "data_cutoff": null,
+          "label": "SHINE｜一线 BR 对照与维持治疗",
+          "locator": "2022 年主要分析，Methods 与 Results；BR 对照 262 人，研究者评估 PFS",
+          "published_at": "2022-06-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35657079/"
         }
       ]
     }
   ],
-  "generated_at": "2026-11-18T04:03:33.048987+00:00",
+  "generated_at": "2026-11-18T04:12:03.916726+00:00",
   "items": [
     {
       "data_cutoff": null,

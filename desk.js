@@ -419,6 +419,7 @@ $('historical').innerHTML = readouts.map(r=>'<article class="source-row"><div><s
 const sourceNames = {pubmed:'PubMed',ash:'ASH',eha:'EHA',asco:'ASCO'};
 const statuses = {ok:'已检查',healthy:'已检查',success:'已检查',available:'可用',degraded:'覆盖受限',error:'检查失败',blocked:'访问受限',partial:'部分覆盖',stale:'快照待更新',unavailable:'暂无可用数据',not_checked:'待检查'};
 const regulatoryStages = {
+  federal_register:'美国联邦公报',
   meeting_notice:'会议公告', briefing_document:'会议审评材料', transcript:'会议实录',
   minutes:'会议纪要', vote:'咨询投票', final_decision:'正式决定',
   final_decision_letter_candidate:'决定信线索 · 待核对', accelerated_approval:'加速批准',
@@ -469,7 +470,7 @@ Promise.all([load('literature.json'),load('regulatory.json')]).then(([lit,reg])=
     caseLink.textContent = 'ASH 1780 · 查看对 TITANium 项目的影响 →';
     $('papers').before(caseLink);
   }
-  cards('fda',reg?.events,'暂无公开监管快照。',i=>publishedCard(i,[i.date,regulatoryStages[i.stage] || i.stage,i.status].filter(Boolean).join(' · '),'<p>'+safe(i.summary)+'</p>'+(i.locator?'<p class="muted">材料定位 '+safe(i.locator)+'</p>':'')+(i.vote?'<p>'+safe(typeof i.vote==='string'?i.vote:JSON.stringify(i.vote))+'</p>':'')));
+  cards('fda',reg?.events,'暂无公开监管快照。',i=>publishedCard(i,[i.date,regulatoryStages[i.stage] || i.stage,i.status].filter(Boolean).join(' · '),'<p>'+safe(i.summary)+'</p>'+(i.locator?'<p class="muted">材料定位 '+safe(i.locator)+'</p>':'')+(i.vote?'<p>'+safe(typeof i.vote==='string'?i.vote:JSON.stringify(i.vote))+'</p>':'')+((i.official_pdf || i.guidance_url)?'<p>'+link(i.official_pdf,'联邦公报 PDF')+' '+link(i.guidance_url,'FDA 指南')+'</p>':'')));
   const rows = [
     sourceInfo('ClinicalTrials.gov',{status:'ok',checked_at:data.checked,scope:studies.length+' 项固定监测研究',url:'https://clinicaltrials.gov/'}),
     sourceInfo('v5.5 历史样本',{status:'available',checked_at:data.sample.snapshot,scope:'中心和设计取自登记快照；读出逐项关联原始材料'}),

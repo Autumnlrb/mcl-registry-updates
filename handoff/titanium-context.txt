@@ -36,6 +36,26 @@ AZD5492 靶向 CD20×TCR×CD8，为 CD8 引导的三特异性 T 细胞接合抗�
 决策与复核触发条件
 跟踪 GLOBRYTE（NCT06084936）随机 III 期 PFS 和安全性，把它作为后续更可靠的 post-cBTKi 比较背景。
 
+同为 BR 诱导，历史对照有多可比？
+三项一线随机 MCL 试验均使用苯达莫司汀加利妥昔单抗（BR）诱导。MANGROVE 对照组 253 人，诱导后观察，中位 PFS 39.2 个月（95% CI 33.5–55.7）。ECHO 主要分析的对照组 299 人，缓解者接受利妥昔单抗维持，中位 PFS 49.6 个月（36.0–64.1）。两者均为独立评审，随访中位分别为 44.1 和 49.8 个月。SHINE 对照组 262 人，缓解者也接受维持，研究者评估的中位 PFS 为 52.9 个月，随访中位 84.7 个月。
+https://onlineprogram.hematology.org/paper-details.aspx?pid=695083
+
+对照差异如何传到 TITANium
+对照组中位数的差别值得核查。维持治疗、年龄与移植适合性、评估者和随访期均会影响比较，跨试验无法分离各因素的贡献。TITANium 为后线单药研究，内部模型应先按地区、入组时期和前线 BR 后有无维持、是否已暴露 BTKi 分层核对病例构成，再决定是否调整入组预测、外部参照选择或 TPP 的论证。
+https://onlineprogram.hematology.org/paper-details.aspx?pid=695083
+
+FDA 最终肿瘤入组指南 · 实验室指标
+核对器官功能及血液学阈值的安全依据、单位和观察时间。项目适用性和目标地区要求待核。
+https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cancer-clinical-trial-eligibility-criteria-laboratory-values
+
+FDA 最终肿瘤入组指南 · 洗脱期与合并用药
+核对既往治疗洗脱期、合并用药例外及毒性恢复标准。项目适用性和目标地区要求待核。
+https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cancer-clinical-trial-eligibility-criteria-washout-periods-and-concomitant-medications
+
+FDA 最终肿瘤入组指南 · 体能状态
+核对 ECOG 范围、排除依据及安全性分层。项目适用性和目标地区要求待核。
+https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cancer-clinical-trial-eligibility-criteria-performance-status
+
 FDA · 美国 MCL 治疗顺序与 BCL2 暴露
 FDA 加速批准既往至少两线、含 BTK 抑制剂治疗的成人复发或难治性 MCL 适应证。该决定影响美国后线治疗顺序和既往 BCL-2 抑制剂暴露的构成，可帮助解读双耐药队列的代表性。
 https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220711Orig1s000Approv.pdf
@@ -64,11 +84,16 @@ TITANium 公开登记 | Identification / Design / Eligibility / Posted Results |
 AZD5492 申办方机制与研究说明 | Study drug：两个 CD20 结合域，TCR 与 CD8 各一个结合域 | https://us.az-oncology-pipeline.com/home/tumor-type/hematological/cll/titanium.html
 ASH 2026 #6 MANGROVE 原始会议摘要 | 首次接受治疗、移植不适合人群，独立评审 PFS HR 0.57（95% CI 0.43–0.76） | https://onlineprogram.hematology.org/paper-details.aspx?pid=695083
 GLOBRYTE 活跃注册 | 抗 CD20×CD3 单药与研究者选择的随机 III 期 | https://clinicaltrials.gov/study/NCT06084936
+ECHO｜一线 BR 对照与维持治疗 | 2025 年主要分析，Methods 与 Results；BR 对照 299 人，独立评审 PFS；正文图 2A | https://pubmed.ncbi.nlm.nih.gov/40311141/
+SHINE｜一线 BR 对照与维持治疗 | 2022 年主要分析，Methods 与 Results；BR 对照 262 人，研究者评估 PFS | https://pubmed.ncbi.nlm.nih.gov/35657079/
+FDA 最终肿瘤入组指南 · 实验室指标 | 指南正文 · 实验室指标建议；FR Doc. 2026-15187；ACTION、DATES 与适用范围 | https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cancer-clinical-trial-eligibility-criteria-laboratory-values
+FDA 最终肿瘤入组指南 · 洗脱期与合并用药 | 指南正文 · 洗脱期与合并用药建议；FR Doc. 2026-15186；ACTION、DATES 与适用范围 | https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cancer-clinical-trial-eligibility-criteria-washout-periods-and-concomitant-medications
+FDA 最终肿瘤入组指南 · 体能状态 | 指南正文 · 体能状态建议；FR Doc. 2026-15185；ACTION、DATES 与适用范围 | https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cancer-clinical-trial-eligibility-criteria-performance-status
 FDA 加速批准函｜Sonrotoclax | 第 1 页 Accelerated Approval；NDA 220711 | https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220711Orig1s000Approv.pdf
 ODAC 正式表决｜STARGLO | 10/14 页，May 20 morning session，问题 2 | https://www.fda.gov/media/187747/download#page=10
 FDA 审评立场｜STARGLO | 印刷页 42–64、77–78；The FDA’s Position | https://www.fda.gov/media/186525/download#page=78
 
-请在公司批准的环境使用已授权的当前项目文件。先确认 TPP（目标产品特征）与方案、SAP（统计分析计划）版本，列出目标人群、既往 BTKi／BCL2 抑制剂及 CAR-T 暴露、终点定义与成熟度、剂量和安全阈值。按条记录原件定位、分析集、分母、数据截止、缺口和适用性。针对每个决策分支给出内部结论、下一步动作、责任岗位、复核日期及触发复评的公开证据。仅在公司批准的环境处理保密项目材料，勿随外部网页检索或服务请求发送。
+请在公司批准的环境使用已授权的当前项目文件。先确认 TPP（目标产品特征）与方案、SAP（统计分析计划）版本，列出目标人群、既往 BTKi／BCL2 抑制剂及 CAR-T 暴露、终点定义与成熟度、剂量和安全阈值。按条记录原件定位、分析集、分母、数据截止、缺口和适用性。针对每个决策分支给出内部结论、下一步动作、责任岗位和触发复评的公开证据。核对目标地区、公司递交时间表、当期数据截止及已有监管沟通承诺，逐项选择本次维持、补分析或建议讨论，并给出复评日期。仅在公司批准的环境处理保密项目材料，勿随外部网页检索或服务请求发送。
 
 固定版证据与公文定位
-https://autumnlrb.github.io/mcl-registry-updates/evidence/titanium-83435e626d1316ea1e587110.json
+https://autumnlrb.github.io/mcl-registry-updates/evidence/titanium-31f20f4dbf62c787b4d1b7e3.json
