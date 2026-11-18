@@ -1,0 +1,402 @@
+{
+  "cases": [
+    {
+      "assessment": [
+        {
+          "label": "早线",
+          "text": "13 名患者都处于复发/难治、双耐药场景。早线竞争另外跟踪 2026 ASH #6 的 MANGROVE 随机 III 期。若前线 BTKi 应用扩大，TITANium 后线队列可能纳入更多既往 BTKi 暴露者，原有病例组合可能随地区和入组时期变化。"
+        },
+        {
+          "label": "复发/难治",
+          "text": "TITANium 公共登记纳入 CD20 阳性成熟 B 细胞肿瘤，含 MCL，至少既往两线，模块 1 为 AZD5492 单药，I/II 期剂量递增/扩展。2026-09-30 登记版本为招募中、174 人计划入组（跨病种），登记没有结果。把 ASH 1780 作为极高危活动信号，把 ASCO 7006 作为单药持续性参照。"
+        },
+        {
+          "label": "post-BTKi 与 post-CAR-T",
+          "text": "ASH 1780 的双耐药队列比常规既往 BTKi 暴露人群更窄，注册也允许 BTKi 不耐受。TITANium 的判断需要分别列 BTKi 进展/不耐受、既往 BCL2 抑制剂、既往 CAR-T 和 CD20 治疗，报告各组剂量、入组与可评估分母。仅有 4 名 post-CAR-T 患者且未列分层疗效。"
+        },
+        {
+          "label": "靶标与作用机制",
+          "text": "AZD5492 靶向 CD20×TCR×CD8，为 CD8 引导的三特异性 T 细胞接合抗体。Glofitamab 是 2:1 CD20×CD3 双特异抗体，比较病例还叠加来那度胺。共享 CD20 提供机制相关性。平台、递增给药、预处理、联合组分及人群差异限制对疗效和 CRS 的外推。"
+        }
+      ],
+      "data_cutoff": null,
+      "discovered_at": "2026-11-18T03:45:43.768295+00:00",
+      "findings": [
+        {
+          "label": "ASH 1780｜公开摘要、待报告",
+          "text": "中国多中心、开放标签、单臂 II 期研究，登记预计入组 43 人。摘要报告 13 名双耐药患者，其中 4/13 在 CD19 CAR-T 后复发。第 3 周期 ORR 13/13、CR 8/13；第 6 周期 ORR 6/9、CR 5/9。随访中位 7 个月，3 人进展。摘要未给出数据截止日。海报排定 2026-12-12。"
+        },
+        {
+          "label": "ASH 1780｜安全性",
+          "text": "CRS 12/13（92.3%），其中 3 级 1/13；≥3 级中性粒细胞减少 4/13。联合方案和短随访限制单药归因及迟发毒性评估。"
+        },
+        {
+          "label": "ASCO 7006｜同类机制单药的长期参照",
+          "text": "Glofitamab I/II 期 NP30179 的同一 R/R MCL 队列，2025-09-08 截止，61 人入组、60 人治疗，OS 随访中位 41.5 个月。总体 ORR/CR 为 82%/77%，PFS 中位 18.0 个月；既往 BTKi 暴露 34 人，ORR/CR 73.5%/70.6%，PFS 11.3 个月（95% CI 5.1–32.6）、CR 持续期 15.4 个月（8.3–不可估），33 个月仍保持应答的估计比例 41.0%。安全性 42/60 有 CRS，摘要报 3–4 级 11.6%。"
+        },
+        {
+          "label": "同行评议原论文｜同一个 NP30179 队列的更早分析",
+          "text": "2023-09-04 截止，疗效可评估 60 人，ORR 85.0%、CR 78.3%；既往 BTKi 治疗 31 人，ORR 74.2%、CR 71.0%。总体随访中位 19.6 个月。论文的疗效可评估集与 ASCO 后续分析的分母及分组有差异，不能把两次报告当作独立验证，亦不能把率的差值当作进展。"
+        }
+      ],
+      "id": "ash:2026:1780",
+      "limitations": [
+        "第 3 与第 6 周期的分母不同。摘要未披露其余 4 人的进展、退出、缺失或尚未到访情况，也未给出估计区间。首个分析重点应是逐周期患者流和有分母的持续应答。",
+        "ASH 为预发表会议摘要，单臂、样本小、随访短；一年 PFS/OS 估计在这份摘要中缺少风险人数和区间。",
+        "ASCO 7006 是更新随访，与同一 NP30179 原论文重叠。跨研究的初始反应、PFS、持续缓解及 CRS 受入组、给药、预处理及评估时间影响。"
+      ],
+      "next_steps": [
+        "12 月 12 日海报公开后核对 13 人患者流、C6 分母、按既往治疗分层的 CR/DoR、风险集和 ≥3 级毒性。若第 6 周期缺失主要来自进展或停药，下调对早期应答转化为持续获益的预期；若多为尚未到访，等待成熟读出。",
+        "若 TITANium 公开、可核实的 MCL 和 post-BTKi 数据显示持续 CR、成熟 DoR/PFS，以及较低 ≥3 级 CRS、ICANS 或感染负担，优先评估安全性和操作差异化。若只有混合组织学 ORR 或短期反应，继续等待分层读出，不调整开发判断。",
+        "跟踪 GLOBRYTE（NCT06084936）随机 III 期 PFS 和安全性，把它作为后续更可靠的 post-cBTKi 比较背景。"
+      ],
+      "presentation_date": "2026-12-12",
+      "published_at": "2026-11-04",
+      "review_status": "primary_source_checked",
+      "source_url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=688136",
+      "sources": [
+        {
+          "data_cutoff": null,
+          "label": "ASH 2026 #1780 原始会议摘要",
+          "locator": "Methods / Results / Conclusions",
+          "published_at": "2026-11-04",
+          "url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=688136"
+        },
+        {
+          "data_cutoff": null,
+          "label": "ASH 623 Poster I 官方场次",
+          "locator": "#1780 和 12 月 12 日海报日程",
+          "published_at": null,
+          "url": "https://onlineprogram.hematology.org/session-details.aspx?sid=119032"
+        },
+        {
+          "data_cutoff": null,
+          "label": "ASH 年会摘要发布时间表",
+          "locator": "Key Dates and Deadlines",
+          "published_at": null,
+          "url": "https://www.hematology.org/meetings/annual-meeting/abstracts"
+        },
+        {
+          "data_cutoff": null,
+          "label": "NCT07460362 联合研究登记",
+          "locator": "Study Design / Participation Criteria",
+          "published_at": "2026-03-10",
+          "url": "https://clinicaltrials.gov/study/NCT07460362"
+        },
+        {
+          "data_cutoff": "2025-09-08",
+          "label": "ASCO 2026 #7006 单药随访原始摘要",
+          "locator": "Results；区分数据截止与发布日",
+          "published_at": "2026-05-27",
+          "url": "https://www.asco.org/abstracts-presentations/260518"
+        },
+        {
+          "data_cutoff": "2023-09-04",
+          "label": "NP30179 同行评议原论文",
+          "locator": "全文 Results、Tables 2–5；DOI 10.1200/JCO.23.02470",
+          "published_at": "2024-10-04",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39365960/"
+        },
+        {
+          "data_cutoff": null,
+          "label": "TITANium 公开登记",
+          "locator": "Identification / Design / Eligibility / Posted Results",
+          "published_at": "2026-09-30",
+          "url": "https://clinicaltrials.gov/study/NCT06542250"
+        },
+        {
+          "data_cutoff": null,
+          "label": "AZD5492 申办方机制与研究说明",
+          "locator": "Study drug：两个 CD20 结合域，TCR 与 CD8 各一个结合域",
+          "published_at": null,
+          "url": "https://us.az-oncology-pipeline.com/home/tumor-type/hematological/cll/titanium.html"
+        },
+        {
+          "data_cutoff": null,
+          "label": "ASH 2026 #6 MANGROVE 原始会议摘要",
+          "locator": "首次接受治疗、移植不适合人群，独立评审 PFS HR 0.57（95% CI 0.43–0.76）",
+          "published_at": "2026-11-04",
+          "url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=695083"
+        },
+        {
+          "data_cutoff": null,
+          "label": "GLOBRYTE 活跃注册",
+          "locator": "抗 CD20×CD3 单药与研究者选择的随机 III 期",
+          "published_at": null,
+          "url": "https://clinicaltrials.gov/study/NCT06084936"
+        }
+      ],
+      "summary": "glofitamab 联合来那度胺在 13 名 BTKi/BCL2 抑制剂双耐药患者中观察到早期应答。对 TITANium 的直接启发是提高对 post-BTKi 队列和持续获益数据的关注。优先用有明确分母的缓解深度、持续性和安全性检验 AZD5492 的差异化。",
+      "title": "ASH 1780｜双耐药复发/难治 MCL 的早期应答与持久性缺口",
+      "trial_ids": [
+        "NCT07460362",
+        "NCT06542250",
+        "NCT03075696",
+        "NCT06084936"
+      ]
+    },
+    {
+      "assessment": [
+        {
+          "label": "早线与后线衔接",
+          "text": "如果一线共价 BTKi 更多用于临床，后线 R/R 队列可能有更多既往 BTKi 暴露和更长的暴露时长。判断 TITANium 时应记录地区、时间、既往暴露时长和进展/不耐受原因。"
+        },
+        {
+          "label": "与 TITANium 的适用边界",
+          "text": "MANGROVE 评估初治人群的共价 BTK 抑制加 CD20 单抗；TITANium 评估既往至少两线的 CD20 阳性 B 细胞恶性肿瘤中的 CD20×TCR×CD8 接合剂。两项试验支持分析治疗顺序，无法据此估算 AZD5492 反应率或持久性。"
+        }
+      ],
+      "data_cutoff": null,
+      "discovered_at": "2026-11-18T11:47:00+08:00",
+      "findings": [
+        {
+          "label": "人群与设计",
+          "text": "国际多中心、随机 III 期。初治 MCL，年龄 ≥70 岁，或 60–69 岁且不适合自体移植。510 人，泽布替尼加利妥昔单抗 257 人、苯达莫司汀加利妥昔单抗 253 人。诱导结束后，前者继续泽布替尼直至进展，后者观察。"
+        },
+        {
+          "label": "主要终点",
+          "text": "中位随访 44.1 个月，独立评审 PFS HR 0.57（95% CI 0.43–0.76；单侧 P<0.0001），中位 PFS 未达到 vs 39.2 个月，4 年 PFS 62.4% vs 46.2%。OS 尚不成熟。"
+        },
+        {
+          "label": "安全性",
+          "text": "整体报告窗内 ≥3 级不良事件 75.0% vs 73.6%，严重不良事件 56.6% vs 46.0%；6 个月诱导期 ≥3 级不良事件 39.8% vs 58.4%，比较需保留观察时间及维持治疗差异。"
+        }
+      ],
+      "id": "ash:2026:6",
+      "limitations": [
+        "截至本地核验时 ASH 摘要已公开，12 月 13 日会议报告尚未举行。摘要未披露精确临床数据截止日，ClinicalTrials.gov 登记未张贴结果。",
+        "一线人群、维持与观察安排以及后续治疗影响和 TITANium 的可比性。"
+      ],
+      "next_steps": [
+        "等待完整报告及 OS 成熟更新，追踪一线实际使用和随后复发患者的既往治疗。若一线 BTKi 采用率上升，按 BTKi 暴露背景重评 TITANium 招募与对照可比性。"
+      ],
+      "presentation_date": "2026-12-13",
+      "published_at": "2026-11-04",
+      "review_status": "primary_source_checked",
+      "source_url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=695083",
+      "sources": [
+        {
+          "data_cutoff": null,
+          "label": "ASH 2026 #6 MANGROVE 原始会议摘要",
+          "locator": "Methods / Results；PFS / safety",
+          "published_at": "2026-11-04",
+          "url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=695083"
+        },
+        {
+          "data_cutoff": null,
+          "label": "MANGROVE 登记 NCT04002297",
+          "locator": "Study Design / eligibility；与已有登记监测项匹配",
+          "published_at": "2026-09-30",
+          "url": "https://clinicaltrials.gov/study/NCT04002297"
+        },
+        {
+          "data_cutoff": null,
+          "label": "TITANium 公开登记 NCT06542250",
+          "locator": "Eligibility / Study Design",
+          "published_at": "2026-09-30",
+          "url": "https://clinicaltrials.gov/study/NCT06542250"
+        }
+      ],
+      "summary": "11 月 18 日 11:47（北京时间）Dots 提供线索，本地核对 ASH 官方摘要并与工作台现有 MANGROVE 登记 NCT04002297 精确匹配。独立评审显示泽布替尼加利妥昔单抗改善一线 PFS。若前线共价 BTKi 使用扩大，后续 R/R 患者的既往 BTKi 暴露可能增加。",
+      "title": "ASH 6｜MANGROVE 一线随机 III 期 PFS 读出",
+      "trial_ids": [
+        "NCT04002297",
+        "NCT06542250"
+      ]
+    }
+  ],
+  "registry_event_ids": [
+    "d60b5598485676c1b5f2878c",
+    "5d902470d281c85d183dbe94",
+    "05e7311317cbf8cc5803817f",
+    "22633658ce5c59d38dc83e8d"
+  ],
+  "reviewed_regulatory": [
+    {
+      "date": "2026-05-13",
+      "group": "beqalzi-mcl",
+      "id": "beqalzi-mcl:final_decision",
+      "locator": "第 1 页 Accelerated Approval；NDA 220711",
+      "relation": "population",
+      "reviewed": true,
+      "stage": "final_decision",
+      "status": "历史资料",
+      "summary": "FDA 加速批准既往至少两线、含 BTK 抑制剂治疗的成人复发或难治性 MCL 适应证。该决定影响美国后线治疗顺序和既往 BCL-2 抑制剂暴露的构成，可帮助解读双耐药队列的代表性。",
+      "title": "FDA 加速批准函｜Sonrotoclax",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220711Orig1s000Approv.pdf",
+      "vote": null
+    },
+    {
+      "date": "2026-05-13",
+      "group": "beqalzi-mcl",
+      "id": "beqalzi-mcl:fda_position",
+      "locator": "封面 Recommendation on Regulatory Action；NDA 220711",
+      "relation": "population",
+      "reviewed": true,
+      "stage": "fda_position",
+      "status": "历史资料",
+      "summary": "审评团队建议加速批准。BCL-2 抑制剂提供同病种和后线人群的监管路径参照。",
+      "title": "FDA 多学科审评｜Sonrotoclax",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220711Orig1s000MultidisciplineR.pdf",
+      "vote": null
+    },
+    {
+      "date": "2025-07-18",
+      "group": "starglo-761309-s001",
+      "id": "starglo-761309-s001:sponsor_reported_action",
+      "locator": "2025-07-18 公告首段；sBLA 761309/S-001",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "sponsor_reported_action",
+      "status": "申办方披露（历史公告）",
+      "summary": "Genentech 公告报告 FDA 已发出完整回复函（CRL）。该公告属于申办方披露；FDA 函件正文另行监测。",
+      "title": "Genentech 公告｜补充申请收到 CRL",
+      "url": "https://www.gene.com/media/press-releases/15070/2025-07-18/genentech-provides-update-on-supplementa",
+      "vote": null
+    },
+    {
+      "date": "2025-05-20",
+      "group": "starglo-761309-s001",
+      "id": "starglo-761309-s001:vote",
+      "locator": "10/14 页，May 20 morning session，问题 2",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "vote",
+      "status": "历史资料",
+      "summary": "问题是 STARGLO 人群与试验结果对拟议美国人群的适用性。正式纪要记载赞成 1、反对 8、弃权 0。",
+      "title": "ODAC 正式表决｜STARGLO",
+      "url": "https://www.fda.gov/media/187747/download#page=10",
+      "vote": {
+        "abstain": 0,
+        "no": 8,
+        "yes": 1
+      }
+    },
+    {
+      "date": "2025-05-20",
+      "group": "starglo-761309-s001",
+      "id": "starglo-761309-s001:sponsor_position",
+      "locator": "STARGLO Efficacy and Safety；Regional Subgroup Analysis；Benefit-Risk",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "sponsor_position",
+      "status": "历史资料",
+      "summary": "申办方引用随机试验总体生存改善，讨论区域亚组和后续治疗差异，主张总体结果可支持拟议用途。",
+      "title": "Genentech 申办方立场｜STARGLO",
+      "url": "https://www.fda.gov/media/186558/download",
+      "vote": null
+    },
+    {
+      "date": "2025-05-20",
+      "group": "starglo-761309-s001",
+      "id": "starglo-761309-s001:fda_position",
+      "locator": "印刷页 42–64、77–78；The FDA’s Position",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "fda_position",
+      "status": "历史资料",
+      "summary": "FDA 审查总人群疗效、区域差异及研究对美国目标人群和实践的适用性。北美样本有限，区域疗效差异增加解释不确定性。",
+      "title": "FDA 审评立场｜STARGLO",
+      "url": "https://www.fda.gov/media/186525/download#page=78",
+      "vote": null
+    },
+    {
+      "date": "2025-05-20",
+      "group": "starglo-761309-s001",
+      "id": "starglo-761309-s001:agenda",
+      "locator": "第 1–2 页，Columvi 早场",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "agenda",
+      "status": "历史资料",
+      "summary": "早场审议 sBLA 761309/S-001，拟用于不适合自体移植的复发或难治性 DLBCL。",
+      "title": "历史 ODAC 议程｜Glofitamab + GemOx",
+      "url": "https://www.fda.gov/media/186520/download",
+      "vote": null
+    },
+    {
+      "date": "2025-05-16",
+      "group": "starglo-761309-s001",
+      "id": "starglo-761309-s001:materials",
+      "locator": "目录；FDA 立场印刷页 42、72、77；FDA-2025-N-1107",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "materials",
+      "status": "历史资料",
+      "summary": "同一文件收录双方文本，目录分别标注 FDA 的疗效、安全性与美国人群适用性章节。",
+      "title": "FDA 与 Genentech 合并简报｜STARGLO",
+      "url": "https://www.fda.gov/media/186525/download",
+      "vote": null
+    },
+    {
+      "date": "2025-05-08",
+      "group": "starglo-761309-s001",
+      "id": "starglo-761309-s001:meeting_notice",
+      "locator": "Event Materials；FDA-2025-N-1107；FR Doc. 2025-08060",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "meeting_notice",
+      "status": "历史资料",
+      "summary": "公开议程、公众提交意见入口及会议材料。联邦公告将 BLA 761309/S-001 列入 5 月 20 日早场。",
+      "title": "FDA 会议公告｜Glofitamab + GemOx",
+      "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/may-20-21-2025-meeting-oncologic-drugs-advisory-committee-05202025",
+      "vote": null
+    },
+    {
+      "date": "2024-05-30",
+      "group": "breyanzi-mcl",
+      "id": "breyanzi-mcl:final_decision",
+      "locator": "第 1 页 SUPPLEMENT APPROVAL；STN BL 125714/227",
+      "relation": "population",
+      "reviewed": true,
+      "stage": "final_decision",
+      "status": "历史资料",
+      "summary": "FDA 批准既往至少两线、含 BTK 抑制剂治疗的成人复发或难治性 MCL 适应证。",
+      "title": "FDA 批准函｜Liso-cel 用于 MCL",
+      "url": "https://www.fda.gov/media/178992/download",
+      "vote": null
+    },
+    {
+      "date": "2024-05-15",
+      "group": "breyanzi-mcl",
+      "id": "breyanzi-mcl:fda_position",
+      "locator": "Section 1.1；STN BL 125714/227；TRANSCEND-MCL",
+      "relation": "population",
+      "reviewed": true,
+      "stage": "fda_position",
+      "status": "历史资料",
+      "summary": "审评团队建议传统批准。与 TITANium 有部分复发或难治性 MCL 人群重叠，产品为 CD19 CAR-T。",
+      "title": "FDA 临床审评｜Liso-cel 用于 MCL",
+      "url": "https://www.fda.gov/media/179344/download",
+      "vote": null
+    },
+    {
+      "date": "2023-12-18",
+      "group": "imbruvica-mcl",
+      "id": "imbruvica-mcl:withdrawal",
+      "locator": "FR Doc. 2023-27662；FDA-2023-N-5344；DATES 与 SUPPLEMENTARY INFORMATION",
+      "relation": "population",
+      "reviewed": true,
+      "stage": "withdrawal",
+      "status": "历史资料",
+      "summary": "FDA 曾拟召集 ODAC。申办方于 2023-04-06 主动申请撤回并放弃听证；正式撤回于联邦公报发布日生效。",
+      "title": "FDA 撤回适应证｜Ibrutinib",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2023-12-18/pdf/2023-27662.pdf",
+      "vote": null
+    },
+    {
+      "date": "2023-06-15",
+      "group": "columvi-original",
+      "id": "columvi-original:final_decision",
+      "locator": "首段与 NP30179；BLA 761309 原始申请",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "final_decision",
+      "status": "历史资料",
+      "summary": "既往至少两线后特定复发或难治性大 B 细胞淋巴瘤的原始适应证。可用于比较 CD20×CD3 同类机制与审评路径。",
+      "title": "FDA 加速批准｜Glofitamab 单药",
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/fda-grants-accelerated-approval-glofitamab-gxbm-selected-relapsed-or-refractory-large-b-cell",
+      "vote": null
+    }
+  ]
+}
