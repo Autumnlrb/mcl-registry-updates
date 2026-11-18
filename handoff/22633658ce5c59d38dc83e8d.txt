@@ -1,0 +1,31 @@
+MCL 登记变更 · 公司模型核对材料
+
+研究 CaDAnCe-101（NCT05006716）
+字段 研究完成日期
+旧版 2029-11 · 预计 (ESTIMATED)（登记版本发布 2026-08-21；采集 2026-08-23T02:31:34+00:00）
+新版 2030-03 · 预计 (ESTIMATED)（登记版本发布 2026-10-05；采集 2026-11-18T03:20:33+00:00）
+
+公开证据
+旧版官方历史记录 https://clinicaltrials.gov/study/NCT05006716?tab=history
+在历史记录中选择发布日期 2026-08-21，核对字段 protocolSection.statusModule.completionDateStruct。
+当前官方登记 JSON https://clinicaltrials.gov/api/v2/studies/NCT05006716
+核对字段 protocolSection.statusModule.completionDateStruct，并在历史记录中选择发布日期 2026-10-05 以复核本次采集的版本。当前 JSON 会继续更新。
+官方术语表 https://clinicaltrials.gov/study-basics/glossary
+两次快照只证明各自登记版本中的值。首次发生变更的准确日期待核实。
+
+本次版本的研究背景
+CaDAnCe-101 的这版登记是一项涵盖多种 B 细胞肿瘤的 I/II 期研究。I 期包括单药剂量递增与扩展，主要观察不良事件和剂量；II 期为单药扩展，主要终点为客观缓解率（ORR）。
+若查看入组字段，645→689 是全研究目标入组人数的变化。按 MCL 队列评估时，需要单独核对队列计划与实际人数。
+设计与终点定位 protocolSection.identificationModule.briefTitle、protocolSection.designModule.phases、protocolSection.armsInterventionsModule.armGroups、protocolSection.outcomesModule.primaryOutcomes
+需核对的项目问题 请核对 MCL 队列的独立样本量、入组进度、既往 BTK 抑制剂暴露及可评价人数；仅在队列资料显示更改时更新 MCL 项目的监测判断。
+
+条件化影响
+研究完成日期通常涵盖主要、次要终点及不良事件的最终数据采集。若日期由预计改为实际，可向团队核对长期随访和安全性数据的截止范围。
+有正式随访或安全性数据截止时，再更新证据时间表。只有登记日期时，记录该时间点并保留分析与披露待核实状态。
+
+请内部模型回答
+请核对研究整体访视结束、次要终点与安全性数据截止是否一致，以及长期随访是否有独立安排。
+在有权限的内网资料中定位关联的研究方案版本、正式分析或披露计划、内部监测记录。逐条区分登记事实、内部证据、条件推断与待核实事项，并给出资料标题、日期和可复核定位。缺少证据的项目列出所缺资料。若需要作跨研究比较，先核对人群、终点、分析集与随访；资料不足时保留待核实。
+
+限制
+登记变化无法单独证明锁库、结果读出、发表、疗效、安全性或提前终止。

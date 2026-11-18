@@ -1,0 +1,137 @@
+{
+  "checked_at": "2026-11-18",
+  "checked_count": 8,
+  "events": [
+    {
+      "nct": "NCT04002297",
+      "study": "MANGROVE",
+      "field": "主要完成日期",
+      "before": "2027-03 · ESTIMATED",
+      "after": "2026-04-27 · ACTUAL",
+      "previous_date": "2026-05-18",
+      "posted_date": "2026-09-30",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT04002297",
+      "previous_url": "https://clinicaltrials.gov/study/NCT04002297?tab=history",
+      "locator": "protocolSection.statusModule.primaryCompletionDateStruct",
+      "previous_retrieved_at": "2026-08-23T02:31:34+00:00",
+      "current_retrieved_at": "2026-11-18T03:20:23+00:00",
+      "evidence_basis": "official_snapshot_comparison",
+      "id": "d60b5598485676c1b5f2878c",
+      "before_file": "evidence/d60b5598485676c1b5f2878c-before_file.json",
+      "after_file": "evidence/d60b5598485676c1b5f2878c-after_file.json"
+    },
+    {
+      "nct": "NCT05006716",
+      "study": "CaDAnCe-101",
+      "field": "主要完成日期",
+      "before": "2026-11 · ESTIMATED",
+      "after": "2027-03 · ESTIMATED",
+      "previous_date": "2026-08-21",
+      "posted_date": "2026-10-05",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT05006716",
+      "previous_url": "https://clinicaltrials.gov/study/NCT05006716?tab=history",
+      "locator": "protocolSection.statusModule.primaryCompletionDateStruct",
+      "previous_retrieved_at": "2026-08-23T02:31:34+00:00",
+      "current_retrieved_at": "2026-11-18T03:20:33+00:00",
+      "evidence_basis": "official_snapshot_comparison",
+      "id": "5d902470d281c85d183dbe94",
+      "before_file": "evidence/5d902470d281c85d183dbe94-before_file.json",
+      "after_file": "evidence/5d902470d281c85d183dbe94-after_file.json"
+    },
+    {
+      "nct": "NCT05006716",
+      "study": "CaDAnCe-101",
+      "field": "入组人数",
+      "before": "645 · ESTIMATED",
+      "after": "689 · ESTIMATED",
+      "previous_date": "2026-08-21",
+      "posted_date": "2026-10-05",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT05006716",
+      "previous_url": "https://clinicaltrials.gov/study/NCT05006716?tab=history",
+      "locator": "protocolSection.designModule.enrollmentInfo",
+      "previous_retrieved_at": "2026-08-23T02:31:34+00:00",
+      "current_retrieved_at": "2026-11-18T03:20:33+00:00",
+      "evidence_basis": "official_snapshot_comparison",
+      "id": "05e7311317cbf8cc5803817f",
+      "before_file": "evidence/05e7311317cbf8cc5803817f-before_file.json",
+      "after_file": "evidence/05e7311317cbf8cc5803817f-after_file.json"
+    },
+    {
+      "nct": "NCT05006716",
+      "study": "CaDAnCe-101",
+      "field": "研究完成日期",
+      "before": "2029-11 · ESTIMATED",
+      "after": "2030-03 · ESTIMATED",
+      "previous_date": "2026-08-21",
+      "posted_date": "2026-10-05",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT05006716",
+      "previous_url": "https://clinicaltrials.gov/study/NCT05006716?tab=history",
+      "locator": "protocolSection.statusModule.completionDateStruct",
+      "previous_retrieved_at": "2026-08-23T02:31:34+00:00",
+      "current_retrieved_at": "2026-11-18T03:20:33+00:00",
+      "evidence_basis": "official_snapshot_comparison",
+      "id": "22633658ce5c59d38dc83e8d",
+      "before_file": "evidence/22633658ce5c59d38dc83e8d-before_file.json",
+      "after_file": "evidence/22633658ce5c59d38dc83e8d-after_file.json"
+    }
+  ],
+  "studies": [
+    {
+      "nct": "NCT03206970",
+      "name": "BGB-3111-206",
+      "posted_date": "2024-10-26",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT03206970",
+      "history_url": "https://clinicaltrials.gov/study/NCT03206970?tab=history"
+    },
+    {
+      "nct": "NCT03740529",
+      "name": "BRUIN",
+      "posted_date": "2026-01-27",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT03740529",
+      "history_url": "https://clinicaltrials.gov/study/NCT03740529?tab=history"
+    },
+    {
+      "nct": "NCT05006716",
+      "name": "CaDAnCe-101",
+      "posted_date": "2026-10-05",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT05006716",
+      "history_url": "https://clinicaltrials.gov/study/NCT05006716?tab=history"
+    },
+    {
+      "nct": "NCT06742996",
+      "name": "CELESTIAL-RRMCL",
+      "posted_date": "2026-10-29",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT06742996",
+      "history_url": "https://clinicaltrials.gov/study/NCT06742996?tab=history"
+    },
+    {
+      "nct": "NCT02972840",
+      "name": "ECHO",
+      "posted_date": "2026-10-08",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02972840",
+      "history_url": "https://clinicaltrials.gov/study/NCT02972840?tab=history"
+    },
+    {
+      "nct": "NCT04002297",
+      "name": "MANGROVE",
+      "posted_date": "2026-09-30",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT04002297",
+      "history_url": "https://clinicaltrials.gov/study/NCT04002297?tab=history"
+    },
+    {
+      "nct": "NCT03112174",
+      "name": "SYMPATICO",
+      "posted_date": "2025-07-22",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT03112174",
+      "history_url": "https://clinicaltrials.gov/study/NCT03112174?tab=history"
+    },
+    {
+      "nct": "NCT02601313",
+      "name": "ZUMA-2",
+      "posted_date": "2026-03-18",
+      "source_url": "https://clinicaltrials.gov/api/v2/studies/NCT02601313",
+      "history_url": "https://clinicaltrials.gov/study/NCT02601313?tab=history"
+    }
+  ],
+  "schema_version": 1
+}

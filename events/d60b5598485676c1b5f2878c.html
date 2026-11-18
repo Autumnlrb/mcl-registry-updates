@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MCL 临床试验登记更新</title>
+<link rel="stylesheet" href="../reader.css">
+<script src="../reader.js" defer></script>
+</head>
+<body>
+<header><div class="shell">
+    <p class="kicker">ClinicalTrials.gov · 套细胞淋巴瘤</p>
+    <h1>MCL 临床试验登记更新</h1>
+    <p>试点追踪公开登记字段的变化。按版本核对证据，或下载交接包进行内部复核。</p>
+</div></header>
+<main class="shell"><p><a href="../index.html">← 查看最新登记更新</a></p>
+<article id="d60b5598485676c1b5f2878c" class="card" data-study="NCT04002297 MANGROVE">
+    <div class="study"><span>NCT04002297</span><span>MANGROVE</span></div>
+    <h2>主要完成日期</h2>
+    <div class="comparison">
+        <section class="before">
+            <h3>旧版 · 登记发布 2026-05-18</h3>
+            <p class="value">2027-03 · 预计 (ESTIMATED)</p>
+            <p class="date">采集 2026-08-23 02:31:34 UTC</p>
+            <a href="https://clinicaltrials.gov/study/NCT04002297?tab=history">官方登记历史</a>
+            <a href="../evidence/d60b5598485676c1b5f2878c-before_file.json">固定证据 JSON</a>
+        </section>
+        <section class="after">
+            <h3>新版 · 登记发布 2026-09-30</h3>
+            <p class="value">2026-04-27 · 实际 (ACTUAL)</p>
+            <p class="date">采集 2026-11-18 03:20:23 UTC</p>
+            <a href="https://clinicaltrials.gov/api/v2/studies/NCT04002297">官方当前登记 JSON</a>
+            <a href="../evidence/d60b5598485676c1b5f2878c-after_file.json">固定证据 JSON</a>
+        </section>
+    </div>
+    <details open>
+        <summary>证据定位与解读</summary>
+        <p>在官方登记历史中按上述发布日期选取版本。当前官方 JSON 会继续更新，固定证据仅保留采集版本中的这一字段。</p>
+        <p>登记字段 <code>protocolSection.statusModule.primaryCompletionDateStruct</code></p>
+        <p>主要完成日期指最后一位受试者完成主要终点最终数据采集的日期。若登记从预计改为实际，可向研究团队核对主要终点数据的成熟度和分析安排。</p>
+        <p>MANGROVE 的这版登记是一项 III 期研究，纳入既往未治疗且不适合造血干细胞移植的成人 MCL。比较扎努布替尼＋利妥昔单抗与苯达莫司汀＋利妥昔单抗（BR）；主要终点为独立中央判读的无进展生存期（PFS）。</p><p>如果内部项目针对后线 MCL，本次主要完成日期更新可触发对未来一线治疗路径与既往 BTK 抑制剂暴露的监测。该字段没有提供新的疗效实测值。</p><p>官方设计与终点字段 <code>protocolSection.identificationModule.briefTitle</code>、<code>protocolSection.designModule.phases</code>、<code>protocolSection.armsInterventionsModule.armGroups</code>、<code>protocolSection.outcomesModule.primaryOutcomes</code></p>
+        <p>首次变更日期待核实。登记变化无法单独证明锁库、读出、发表、疗效、安全性或提前终止。</p>
+        <a href="https://clinicaltrials.gov/study-basics/glossary">ClinicalTrials.gov 术语表</a>
+    </details>
+    <details>
+        <summary>查看并复制公司模型交接内容</summary>
+        <textarea readonly rows="12" aria-label="交接内容">MCL 登记变更 · 公司模型核对材料
+
+研究 MANGROVE（NCT04002297）
+字段 主要完成日期
+旧版 2027-03 · 预计 (ESTIMATED)（登记版本发布 2026-05-18；采集 2026-08-23T02:31:34+00:00）
+新版 2026-04-27 · 实际 (ACTUAL)（登记版本发布 2026-09-30；采集 2026-11-18T03:20:23+00:00）
+
+公开证据
+旧版官方历史记录 https://clinicaltrials.gov/study/NCT04002297?tab=history
+在历史记录中选择发布日期 2026-05-18，核对字段 protocolSection.statusModule.primaryCompletionDateStruct。
+当前官方登记 JSON https://clinicaltrials.gov/api/v2/studies/NCT04002297
+核对字段 protocolSection.statusModule.primaryCompletionDateStruct，并在历史记录中选择发布日期 2026-09-30 以复核本次采集的版本。当前 JSON 会继续更新。
+官方术语表 https://clinicaltrials.gov/study-basics/glossary
+两次快照只证明各自登记版本中的值。首次发生变更的准确日期待核实。
+
+本次版本的研究背景
+MANGROVE 的这版登记是一项 III 期研究，纳入既往未治疗且不适合造血干细胞移植的成人 MCL。比较扎努布替尼＋利妥昔单抗与苯达莫司汀＋利妥昔单抗（BR）；主要终点为独立中央判读的无进展生存期（PFS）。
+如果内部项目针对后线 MCL，本次主要完成日期更新可触发对未来一线治疗路径与既往 BTK 抑制剂暴露的监测。该字段没有提供新的疗效实测值。
+设计与终点定位 protocolSection.identificationModule.briefTitle、protocolSection.designModule.phases、protocolSection.armsInterventionsModule.armGroups、protocolSection.outcomesModule.primaryOutcomes
+需核对的项目问题 请核对项目入组标准是否按既往 BTK 抑制剂暴露分层，并说明需要何种正式一线读出或采用证据，才应调整后线入组或分析假设。
+
+条件化影响
+主要完成日期指最后一位受试者完成主要终点最终数据采集的日期。若登记从预计改为实际，可向研究团队核对主要终点数据的成熟度和分析安排。
+有正式数据截止或锁库公告时，记录公告日期、覆盖人群和分析类型。只有登记更新时，将读出窗口留待核实。
+
+请内部模型回答
+请核对主要终点定义、最后一位受试者的数据采集节点、数据截止或锁库计划及预计首次披露时间。若较原计划提前，是否有公开的方案修订或随访安排可解释差异？
+在有权限的内网资料中定位关联的研究方案版本、正式分析或披露计划、内部监测记录。逐条区分登记事实、内部证据、条件推断与待核实事项，并给出资料标题、日期和可复核定位。缺少证据的项目列出所缺资料。若需要作跨研究比较，先核对人群、终点、分析集与随访；资料不足时保留待核实。
+
+限制
+登记变化无法单独证明锁库、结果读出、发表、疗效、安全性或提前终止。
+</textarea>
+        <button class="copy" data-copy type="button" hidden>复制交接内容</button>
+        <span class="copy-status" role="status"></span>
+    </details>
+    <div class="actions">
+        <a class="button" href="../handoff/d60b5598485676c1b5f2878c.txt" download>下载交接包 TXT</a>
+        
+    </div>
+</article>
+</main>
+<footer class="shell">数据来源 <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a> · 登记更新的临床意义需结合正式资料复核。</footer>
+</body>
+</html>
