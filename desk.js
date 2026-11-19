@@ -449,6 +449,14 @@ function downloadText(filename, text) {
   anchor.click();
   setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
+// Public studies and publications independently checked against each regulatory case.
+const regulatoryBibliography = {
+  'beqalzi-mcl': [
+    ['BGB-11417-201 · 研究登记','https://clinicaltrials.gov/study/NCT05471843'],
+    ['ASH 2025 · 摘要 663','https://doi.org/10.1182/blood-2025-663'],
+    ['同一研究后续全文 · JCO','https://doi.org/10.1200/JCO-26-00550'],
+  ],
+};
 function drawRegulatory(events) {
   const host=$('fda');
   const label=document.createElement('label');
@@ -462,7 +470,7 @@ function drawRegulatory(events) {
   function draw() {
     const term=search.value.trim().toLowerCase();
     const visible=events.filter(e=>[e.id,e.title,e.summary,e.stage].join(' ').toLowerCase().includes(term));
-    cards('fda',visible,term?'没有匹配的监管材料。':'暂无公开监管快照。',i=>publishedCard(i,[i.date,regulatoryStages[i.stage] || i.stage,i.status].filter(Boolean).join(' · '),'<p>'+safe(i.summary)+'</p>'+(i.locator?'<p class="muted">材料定位 '+safe(i.locator)+'</p>':'')+(i.vote?'<p>'+safe(typeof i.vote==='string'?i.vote:JSON.stringify(i.vote))+'</p>':'')+((i.official_pdf || i.guidance_url)?'<p>'+link(i.official_pdf,'联邦公报 PDF')+' '+link(i.guidance_url,'FDA 指南')+'</p>':'')+(i.reviewed?'<p><button type="button" data-reg-packet="'+safe(i.id)+'">下载公开证据交接包</button></p>':'')));
+    cards('fda',visible,term?'没有匹配的监管材料。':'暂无公开监管快照。',i=>publishedCard(i,[i.date,regulatoryStages[i.stage] || i.stage,i.status].filter(Boolean).join(' · '),'<p>'+safe(i.summary)+'</p>'+(i.locator?'<p class="muted">材料定位 '+safe(i.locator)+'</p>':'')+(i.vote?'<p>'+safe(typeof i.vote==='string'?i.vote:JSON.stringify(i.vote))+'</p>':'')+((i.official_pdf || i.guidance_url)?'<p>'+link(i.official_pdf,'联邦公报 PDF')+' '+link(i.guidance_url,'FDA 指南')+'</p>':'') + (i.reviewed && regulatoryBibliography[i.group] ? '<p>'+regulatoryBibliography[i.group].map(([title,url])=>link(url,title)).join(' · ')+'</p>' : '')+(i.reviewed?'<p><button type="button" data-reg-packet="'+safe(i.id)+'">下载公开证据交接包</button></p>':'')));
   }
   search.oninput=draw;
   host.onclick=e=>{
@@ -475,6 +483,7 @@ function drawRegulatory(events) {
     for (const related of events.filter(item=>item.reviewed && row.group && item.group===row.group && item.id!==row.id)) {
       material.push(related.title+' · '+related.date,related.summary,related.url);
     }
+    for (const [title,url] of regulatoryBibliography[row.group] || []) material.push(title+'　'+url);
     const questions=['请在公司环境选择要评估的研究，并读取相应版本的方案、TPP 与递交计划。',
       '逐项核对适用病种、治疗线、既往暴露、地区和批准类型。记录与入组、对照治疗、终点、后续治疗及递交计划的具体重叠。',
       '如需比较研究结果，列明分母、终点定义、随访和删失。给出直接证据、推断与尚待核实的事项，保留原始材料位置。'];
