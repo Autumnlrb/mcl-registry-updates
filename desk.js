@@ -500,5 +500,30 @@ Promise.all([load('literature.json'),load('regulatory.json')]).then(([lit,reg])=
    host.innerHTML='<h2>逐源巡检</h2><p class="muted">云端时段始于 '+safe(fmt(pack.window))+'，快照于 '+safe(fmt(pack.as_of))+'（北京时间）。本机列显示最近一次检查。</p>'
      +table(['来源','Dots 云端回执','本机'],pack.sources.map(r=>[safe(labels[r.key]),cell(r.cloud),cell(r.local)]),'逐源巡检')
      +historyBlock+'<details><summary>候选来源观察</summary>'+table(['候选来源','观察状态'],scoutRows,'候选来源观察')+'</details>';
+   if (pack.nccn_edition) {
+     const edition=pack.nccn_edition;
+     const origin='https://www.nccn.org/guidelines/nccn-guidelines/guidelines-detail?category=1&id=1480';
+     const kinds={upgrade:'升版',rollback:'回退',reissued:'重新发布',correction:'元数据更正'};
+     const recent=edition.events[0];
+     const description=recent
+       ? kinds[recent.kind]+' · '+recent.previous+' → '+recent.current+' · '+fmt(recent.observed_at)
+       : '首次监测基线，尚未观察到后续变更。';
+     host.insertAdjacentHTML('beforeend','<section class="panel" id="edition-review"><h3>NCCN 专业版 '+safe(edition.version)+'</h3><p>'+safe(description)+'</p><p class="muted">本机核验 '+safe(fmt(edition.checked_at))+' · '+link(origin,'官方专业指南索引')+'</p><button type="button" id="nccn-handoff">下载公司核对提纲</button></section>');
+     $('nccn-handoff').onclick=()=>{
+       const guide=[
+         'NCCN B-Cell Lymphomas · MCL 核对提纲',
+         '工作台记录：'+description,
+         '公开索引版号：'+edition.version+'。最近成功核验：'+edition.checked_at+'。官方入口：'+origin,
+         '本文件仅含版本线索。请在具备相应授权的环境中使用适用的新旧专业资料并记录章节、页码和脚注。',
+         '1. 哪类 MCL 患者受影响？逐项核对治疗线、既往暴露、体能或移植资格、分子亚型及适用条件。',
+         '2. 对照两版的具体方案、首选地位、分类、证据等级和限制。注明旧/新定位，并区分正文、脚注、排版和其他淋巴瘤的修改。',
+         '3. 每项改变列出指南实际引述的原始研究、PMID/DOI/NCT、证据人群和终点。另列相关但未经证实为修订依据的研究。',
+         '4. 在公司环境提供本次关注研究的登记号和决策问题。分别判断对人群、对照组、既往治疗、招募、终点/解释、TPP 和递交计划的潜在影响，说明适用边界与待核条件。',
+       ].join('\n\n');
+       const url=URL.createObjectURL(new Blob([guide],{type:'text/plain;charset=utf-8'}));
+       const a=document.createElement('a');a.href=url;a.download='NCCN-MCL-'+edition.version+'-公司核对提纲.txt';a.click();
+       setTimeout(()=>URL.revokeObjectURL(url),1000);
+     };
+   }
  }
 }
