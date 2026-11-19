@@ -488,15 +488,15 @@ Promise.all([load('literature.json'),load('regulatory.json')]).then(([lit,reg])=
 {
  const pack=data.source_checks,host=$('source-patrol');
  if(host && pack){
-   const labels={pubmed:'PubMed',ash:'ASH',eha:'EHA',asco:'ASCO / JCO',ctgov:'ClinicalTrials.gov',fda_odac:'FDA ODAC',fda_approvals:'FDA 批准公告'};
+   const labels={pubmed:'PubMed',ash:'ASH',eha:'EHA',asco:'ASCO / JCO',ctgov:'ClinicalTrials.gov',fda_odac:'FDA ODAC',fda_approvals:'FDA 批准公告',nccn:'NCCN B 细胞淋巴瘤专业指南'};
    const states={pending:'等待回执',missing:'无回执',checked:'已查限定范围',partial:'部分覆盖',failed:'检查失败'};
    const fmt=t=>t?new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(t)):'';
    const cell=r=>safe(states[r.status])+(r.at?' · '+safe(fmt(r.at)):'');
    const scoutLabels={nccn:'NCCN 专业指南版本',guidelines:'EHA 指南',csco:'CSCO 指南会公告',ema:'EMA 药品审评',cde:'CDE 优先审评',nmpa:'NMPA 药品监管公告'};
    const scoutStates={observing:'观察中',supported:'已有补站依据',failed:'最近一次未取得可核资料',partial:'取得部分资料',pending:'待评估'};
-   const scoutRows=Object.entries(scoutLabels).map(([key,label])=>[label,scoutStates[pack.scouts?.[key] || 'pending']]);
+   const scoutRows=Object.entries(scoutLabels).filter(([key])=>Object.hasOwn(pack.scouts || {},key)).map(([key,label])=>[label,scoutStates[pack.scouts[key]]]);
    const history=pack.history || [];
-   const historyBlock=history.length?'<details><summary>此前三个云端时段</summary>'+table(['来源',...history.map(s=>safe(fmt(s.window)))],pack.sources.map(r=>[safe(labels[r.key]),...history.map(s=>safe(states[s.states[r.key]]))]),'云端历史回执')+'</details>':'';
+   const historyBlock=history.length?'<details><summary>此前三个云端时段</summary>'+table(['来源',...history.map(s=>safe(fmt(s.window)))],pack.sources.map(r=>[safe(labels[r.key]),...history.map(s=>safe(states[s.states[r.key]] || '当时未列入'))]),'云端历史回执')+'</details>':'';
    host.innerHTML='<h2>逐源巡检</h2><p class="muted">云端时段始于 '+safe(fmt(pack.window))+'，快照于 '+safe(fmt(pack.as_of))+'（北京时间）。本机列显示最近一次检查。</p>'
      +table(['来源','Dots 云端回执','本机'],pack.sources.map(r=>[safe(labels[r.key]),cell(r.cloud),cell(r.local)]),'逐源巡检')
      +historyBlock+'<details><summary>候选来源观察</summary>'+table(['候选来源','观察状态'],scoutRows,'候选来源观察')+'</details>';
