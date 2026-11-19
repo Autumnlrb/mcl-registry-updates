@@ -419,7 +419,7 @@ $('historical').innerHTML = readouts.map(r=>'<article class="source-row"><div><s
 const sourceNames = {pubmed:'PubMed',ash:'ASH',eha:'EHA',asco:'ASCO'};
 const statuses = {ok:'已检查',healthy:'已检查',success:'已检查',available:'可用',degraded:'覆盖受限',error:'检查失败',blocked:'访问受限',partial:'部分覆盖',stale:'快照待更新',unavailable:'暂无可用数据',not_checked:'待检查'};
 const regulatoryStages = {
-  federal_register:'美国联邦公报',
+  federal_register:'美国联邦公报', evidence_summary:'批准所据证据',
   meeting_notice:'会议公告', briefing_document:'会议审评材料', transcript:'会议实录',
   minutes:'会议纪要', vote:'咨询投票', final_decision:'正式决定',
   final_decision_letter_candidate:'决定信线索 · 待核对', accelerated_approval:'加速批准',
@@ -440,6 +440,47 @@ function cards(container, items, defaultEmpty, row) {
 }
 function publishedCard(item, metadata, extra) {
   return '<article class="panel item"><small>'+safe(metadata)+'</small><h3>'+safe(item.title)+'</h3>'+(extra || '')+'<div>'+link(item.url,'回查原始材料')+'</div></article>';
+}
+function downloadText(filename, text) {
+  const url=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'}));
+  const anchor=document.createElement('a');
+  anchor.href=url;
+  anchor.download=filename;
+  anchor.click();
+  setTimeout(()=>URL.revokeObjectURL(url),1000);
+}
+function drawRegulatory(events) {
+  const host=$('fda');
+  const label=document.createElement('label');
+  label.textContent='筛选监管材料 ';
+  const search=document.createElement('input');
+  search.type='search';
+  search.placeholder='药物、研究或决定';
+  search.value=new URLSearchParams(location.search).get('reg') || '';
+  label.append(search);
+  host.before(label);
+  function draw() {
+    const term=search.value.trim().toLowerCase();
+    const visible=events.filter(e=>[e.id,e.title,e.summary,e.stage].join(' ').toLowerCase().includes(term));
+    cards('fda',visible,term?'没有匹配的监管材料。':'暂无公开监管快照。',i=>publishedCard(i,[i.date,regulatoryStages[i.stage] || i.stage,i.status].filter(Boolean).join(' · '),'<p>'+safe(i.summary)+'</p>'+(i.locator?'<p class="muted">材料定位 '+safe(i.locator)+'</p>':'')+(i.vote?'<p>'+safe(typeof i.vote==='string'?i.vote:JSON.stringify(i.vote))+'</p>':'')+((i.official_pdf || i.guidance_url)?'<p>'+link(i.official_pdf,'联邦公报 PDF')+' '+link(i.guidance_url,'FDA 指南')+'</p>':'')+(i.reviewed?'<p><button type="button" data-reg-packet="'+safe(i.id)+'">下载公开证据交接包</button></p>':'')));
+  }
+  search.oninput=draw;
+  host.onclick=e=>{
+    const button=e.target.closest('[data-reg-packet]');
+    if (!button) return;
+    const row=events.find(item=>item.reviewed && item.id===button.dataset.regPacket);
+    if (!row) return;
+    const material=[row.title,row.date+' · '+(regulatoryStages[row.stage] || row.stage),row.summary,
+      row.locator,row.url,row.official_pdf,row.guidance_url].filter(Boolean);
+    for (const related of events.filter(item=>item.reviewed && row.group && item.group===row.group && item.id!==row.id)) {
+      material.push(related.title+' · '+related.date,related.summary,related.url);
+    }
+    const questions=['请在公司环境选择要评估的研究，并读取相应版本的方案、TPP 与递交计划。',
+      '逐项核对适用病种、治疗线、既往暴露、地区和批准类型。记录与入组、对照治疗、终点、后续治疗及递交计划的具体重叠。',
+      '如需比较研究结果，列明分母、终点定义、随访和删失。给出直接证据、推断与尚待核实的事项，保留原始材料位置。'];
+    downloadText('MCL-'+row.id.replace(/[^a-z0-9-]/gi,'-')+'-公开证据.txt',[...material,...questions].join('\n\n'));
+  };
+  draw();
 }
 function sourceInfo(label, s) {
   return [safe(label),safe(labelStatus(s.status)),safe(s.last_success_at || s.checked_at || '待核'),safe([s.scope,s.message,s.count!=null?s.count+' 条':null].filter(Boolean).join(' · '))+(s.url?' '+link(s.url,'来源入口'):'')];
@@ -474,7 +515,7 @@ Promise.all([load('literature.json'),load('regulatory.json')]).then(([lit,reg])=
     caseLink.append(anchor);
     $('papers').before(caseLink);
   }
-  cards('fda',reg?.events,'暂无公开监管快照。',i=>publishedCard(i,[i.date,regulatoryStages[i.stage] || i.stage,i.status].filter(Boolean).join(' · '),'<p>'+safe(i.summary)+'</p>'+(i.locator?'<p class="muted">材料定位 '+safe(i.locator)+'</p>':'')+(i.vote?'<p>'+safe(typeof i.vote==='string'?i.vote:JSON.stringify(i.vote))+'</p>':'')+((i.official_pdf || i.guidance_url)?'<p>'+link(i.official_pdf,'联邦公报 PDF')+' '+link(i.guidance_url,'FDA 指南')+'</p>':'')));
+  drawRegulatory(reg?.events || []);
   const rows = [
     sourceInfo('ClinicalTrials.gov',{status:'ok',checked_at:data.checked,scope:studies.length+' 项固定监测研究',url:'https://clinicaltrials.gov/'}),
     sourceInfo('v5.5 历史样本',{status:'available',checked_at:data.sample.snapshot,scope:'中心和设计取自登记快照；读出逐项关联原始材料'}),
@@ -520,9 +561,7 @@ Promise.all([load('literature.json'),load('regulatory.json')]).then(([lit,reg])=
          '3. 每项改变列出指南实际引述的原始研究、PMID/DOI/NCT、证据人群和终点。另列相关但未经证实为修订依据的研究。',
          '4. 在公司环境提供本次关注研究的登记号和决策问题。分别判断对人群、对照组、既往治疗、招募、终点/解释、TPP 和递交计划的潜在影响，说明适用边界与待核条件。',
        ].join('\n\n');
-       const url=URL.createObjectURL(new Blob([guide],{type:'text/plain;charset=utf-8'}));
-       const a=document.createElement('a');a.href=url;a.download='NCCN-MCL-'+edition.version+'-公司核对提纲.txt';a.click();
-       setTimeout(()=>URL.revokeObjectURL(url),1000);
+       downloadText('NCCN-MCL-'+edition.version+'-公司核对提纲.txt',guide);
      };
    }
  }
