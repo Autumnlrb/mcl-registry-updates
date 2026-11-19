@@ -483,3 +483,15 @@ Promise.all([load('literature.json'),load('regulatory.json')]).then(([lit,reg])=
   ];
   $('health').innerHTML=table(['来源','状态','最近成功 / 检查','覆盖与出处'],rows,'公开来源与覆盖');
 });
+
+// The public coverage table only consumes the strictly projected enum and timestamp fields.
+{
+ const pack=data.source_checks,host=$('source-patrol');
+ if(host && pack){
+   const labels={pubmed:'PubMed',ash:'ASH',eha:'EHA',asco:'ASCO / JCO',ctgov:'ClinicalTrials.gov',fda_odac:'FDA ODAC',fda_approvals:'FDA 批准公告'};
+   const states={pending:'等待回执',missing:'无回执',checked:'已查限定范围',partial:'部分覆盖',failed:'检查失败'};
+   const fmt=t=>t?new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(t)):'';
+   const cell=r=>safe(states[r.status])+(r.at?' · '+safe(fmt(r.at)):'');
+   host.innerHTML='<h2>逐源巡检</h2><p class="muted">快照 '+safe(fmt(pack.as_of))+'（北京时间） · 云端列为本时段回执，本机列为各来源最近一次检查。</p>'+table(['来源','Dots 云端','本机'],pack.sources.map(r=>[safe(labels[r.key]),cell(r.cloud),cell(r.local)]),'逐源巡检');
+ }
+}
