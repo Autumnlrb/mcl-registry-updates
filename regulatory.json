@@ -9,7 +9,7 @@
       "url": "https://www.federalregister.gov/documents/2026/09/22/2026-19350/nonclinical-testing-terminology"
     }
   ],
-  "checked_at": "2026-11-21T08:24:08+00:00",
+  "checked_at": "2026-11-21T23:20:05+00:00",
   "direct_hits": 0,
   "events": [
     {
@@ -688,122 +688,115 @@
   ],
   "sources": [
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
+      "checked_at": "2026-11-21T23:20:05+00:00",
       "item_count": 0,
       "name": "FDA 咨询委员会日历",
       "status": "ok",
       "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar"
     },
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
+      "checked_at": "2026-11-21T23:20:05+00:00",
       "item_count": 2,
       "name": "FDA ODAC 2025 年归档",
       "status": "ok",
       "url": "https://www.fda.gov/advisory-committees/oncologic-drugs-advisory-committee/2025-meeting-materials-oncologic-drugs-advisory-committee"
     },
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
+      "checked_at": "2026-11-21T23:20:05+00:00",
       "item_count": 1,
       "name": "FDA ODAC 2026 年归档",
       "status": "ok",
       "url": "https://www.fda.gov/advisory-committees/oncologic-drugs-advisory-committee/2026-meeting-materials-oncologic-drugs-advisory-committee"
     },
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
+      "checked_at": "2026-11-21T23:20:05+00:00",
       "item_count": 8,
       "name": "FDA 肿瘤及血液恶性肿瘤批准公告",
       "status": "ok",
       "url": "https://www.fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications"
     },
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
+      "checked_at": "2026-11-21T23:20:05+00:00",
       "item_count": 6,
       "name": "FDA 加速批准／仍待验证",
       "status": "ok",
       "url": "https://www.fda.gov/drugs/cancer-approvals/ongoing-cancer-accelerated-approvals"
     },
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
+      "checked_at": "2026-11-21T23:20:05+00:00",
       "item_count": 3,
       "name": "FDA 加速批准／临床获益已验证",
       "status": "ok",
       "url": "https://www.fda.gov/drugs/cancer-approvals/verified-clinical-benefit-cancer-accelerated-approvals"
     },
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
+      "checked_at": "2026-11-21T23:20:05+00:00",
       "item_count": 1,
       "name": "FDA 加速批准／已撤回",
       "status": "ok",
       "url": "https://www.fda.gov/drugs/cancer-approvals/withdrawn-cancer-accelerated-approvals"
     },
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
+      "checked_at": "2026-11-21T23:20:05+00:00",
       "item_count": 0,
       "name": "July 17, 2025: Meeting of the Oncologic Drugs Advisory Committee",
       "status": "ok",
       "url": "https://www.fda.gov/advisory-committees/july-17-2025-meeting-oncologic-drugs-advisory-committee-07172025"
     },
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
+      "checked_at": "2026-11-21T23:20:05+00:00",
       "item_count": 6,
       "name": "May 20-21, 2025: Meeting of the Oncologic Drugs Advisory Committee",
       "status": "ok",
       "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/may-20-21-2025-meeting-oncologic-drugs-advisory-committee-05202025"
     },
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
+      "checked_at": "2026-11-21T23:20:05+00:00",
       "item_count": 0,
       "name": "April 30, 2026: Meeting of the Oncologic Drugs Advisory Committee Meeting Announcement",
       "status": "ok",
       "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-30-2026-meeting-oncologic-drugs-advisory-committee-meeting-announcement-04302026"
     },
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
+      "checked_at": "2026-11-21T23:20:05+00:00",
       "item_count": 8,
       "name": "美国联邦公报｜FDA 规则与指南 1",
       "scope": "最近 120 天 · 主题 oncology · 已读 1 页 · 每页 20 条、最多 3 页 · 相关候选 8 条",
       "status": "ok",
-      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=food-and-drug-administration&conditions%5Bpublication_date%5D%5Bgte%5D=2026-07-24&conditions%5Bpublication_date%5D%5Blte%5D=2026-11-21&conditions%5Bterm%5D=oncology&order=newest&per_page=20&page=1&conditions%5Btype%5D%5B%5D=NOTICE&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE&fields%5B%5D=document_number&fields%5B%5D=title&fields%5B%5D=type&fields%5B%5D=action&fields%5B%5D=publication_date&fields%5B%5D=effective_on&fields%5B%5D=comments_close_on&fields%5B%5D=html_url&fields%5B%5D=pdf_url"
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=food-and-drug-administration&conditions%5Bpublication_date%5D%5Bgte%5D=2026-07-25&conditions%5Bpublication_date%5D%5Blte%5D=2026-11-22&conditions%5Bterm%5D=oncology&order=newest&per_page=20&page=1&conditions%5Btype%5D%5B%5D=NOTICE&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE&fields%5B%5D=document_number&fields%5B%5D=title&fields%5B%5D=type&fields%5B%5D=action&fields%5B%5D=publication_date&fields%5B%5D=effective_on&fields%5B%5D=comments_close_on&fields%5B%5D=html_url&fields%5B%5D=pdf_url"
     },
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
+      "checked_at": "2026-11-21T23:20:05+00:00",
       "item_count": 1,
       "name": "美国联邦公报｜FDA 规则与指南 2",
       "scope": "最近 120 天 · 主题 \"accelerated approval\" · 已读 1 页 · 每页 20 条、最多 3 页 · 相关候选 1 条",
       "status": "ok",
-      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=food-and-drug-administration&conditions%5Bpublication_date%5D%5Bgte%5D=2026-07-24&conditions%5Bpublication_date%5D%5Blte%5D=2026-11-21&conditions%5Bterm%5D=%22accelerated+approval%22&order=newest&per_page=20&page=1&conditions%5Btype%5D%5B%5D=NOTICE&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE&fields%5B%5D=document_number&fields%5B%5D=title&fields%5B%5D=type&fields%5B%5D=action&fields%5B%5D=publication_date&fields%5B%5D=effective_on&fields%5B%5D=comments_close_on&fields%5B%5D=html_url&fields%5B%5D=pdf_url"
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=food-and-drug-administration&conditions%5Bpublication_date%5D%5Bgte%5D=2026-07-25&conditions%5Bpublication_date%5D%5Blte%5D=2026-11-22&conditions%5Bterm%5D=%22accelerated+approval%22&order=newest&per_page=20&page=1&conditions%5Btype%5D%5B%5D=NOTICE&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE&fields%5B%5D=document_number&fields%5B%5D=title&fields%5B%5D=type&fields%5B%5D=action&fields%5B%5D=publication_date&fields%5B%5D=effective_on&fields%5B%5D=comments_close_on&fields%5B%5D=html_url&fields%5B%5D=pdf_url"
     },
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
+      "checked_at": "2026-11-21T23:20:05+00:00",
       "item_count": 3,
       "name": "美国联邦公报｜FDA 规则与指南 3",
       "scope": "最近 120 天 · 主题 \"clinical trial\" endpoints · 已读 1 页 · 每页 20 条、最多 3 页 · 相关候选 3 条",
       "status": "ok",
-      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=food-and-drug-administration&conditions%5Bpublication_date%5D%5Bgte%5D=2026-07-24&conditions%5Bpublication_date%5D%5Blte%5D=2026-11-21&conditions%5Bterm%5D=%22clinical+trial%22+endpoints&order=newest&per_page=20&page=1&conditions%5Btype%5D%5B%5D=NOTICE&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE&fields%5B%5D=document_number&fields%5B%5D=title&fields%5B%5D=type&fields%5B%5D=action&fields%5B%5D=publication_date&fields%5B%5D=effective_on&fields%5B%5D=comments_close_on&fields%5B%5D=html_url&fields%5B%5D=pdf_url"
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=food-and-drug-administration&conditions%5Bpublication_date%5D%5Bgte%5D=2026-07-25&conditions%5Bpublication_date%5D%5Blte%5D=2026-11-22&conditions%5Bterm%5D=%22clinical+trial%22+endpoints&order=newest&per_page=20&page=1&conditions%5Btype%5D%5B%5D=NOTICE&conditions%5Btype%5D%5B%5D=PRORULE&conditions%5Btype%5D%5B%5D=RULE&fields%5B%5D=document_number&fields%5B%5D=title&fields%5B%5D=type&fields%5B%5D=action&fields%5B%5D=publication_date&fields%5B%5D=effective_on&fields%5B%5D=comments_close_on&fields%5B%5D=html_url&fields%5B%5D=pdf_url"
     },
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
+      "checked_at": "2026-11-21T23:20:05+00:00",
       "item_count": 0,
       "name": "openFDA 完整回复函公开索引｜BLA 761309",
       "status": "ok",
       "url": "https://api.fda.gov/transparency/crl.json?search=application_number:%22761309%22&limit=100"
     },
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
-      "item_count": 0,
-      "name": "公文取回失败｜FDA 撤回适应证｜Ibrutinib",
-      "status": "error",
-      "url": "https://www.govinfo.gov/content/pkg/FR-2023-12-18/pdf/2023-27662.pdf"
-    },
-    {
-      "checked_at": "2026-11-21T08:24:08+00:00",
-      "item_count": 12,
+      "checked_at": "2026-11-21T23:20:05+00:00",
+      "item_count": 13,
       "name": "已核对的 FDA 历史公文",
-      "status": "partial",
+      "status": "ok",
       "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/may-20-21-2025-meeting-oncologic-drugs-advisory-committee-05202025"
     },
     {
-      "checked_at": "2026-11-21T08:24:08+00:00",
+      "checked_at": "2026-11-21T23:20:05+00:00",
       "item_count": 0,
       "name": "Genentech 历史公告链接",
       "status": "error",
