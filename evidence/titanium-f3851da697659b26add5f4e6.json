@@ -1,0 +1,445 @@
+{
+  "cases": [
+    {
+      "assessment": [],
+      "data_cutoff": null,
+      "discovered_at": "2026-11-18T03:45:43.768295+00:00",
+      "findings": [],
+      "id": "ash:2026:1780",
+      "limitations": [
+        "当前无法重新核对ASH 官方摘要。等待重新核验。"
+      ],
+      "next_steps": [],
+      "presentation_date": "2026-12-12",
+      "published_at": "2026-11-04",
+      "review_status": "review_stale",
+      "source_url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=688136",
+      "sources": [
+        {
+          "data_cutoff": null,
+          "label": "ASH 2026 #1780 原始会议摘要",
+          "locator": "Methods / Results / Conclusions",
+          "published_at": "2026-11-04",
+          "url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=688136"
+        },
+        {
+          "data_cutoff": null,
+          "label": "ASH 623 Poster I 官方场次",
+          "locator": "#1780 和 12 月 12 日海报日程",
+          "published_at": null,
+          "url": "https://onlineprogram.hematology.org/session-details.aspx?sid=119032"
+        },
+        {
+          "data_cutoff": null,
+          "label": "ASH 年会摘要发布时间表",
+          "locator": "Key Dates and Deadlines",
+          "published_at": null,
+          "url": "https://www.hematology.org/meetings/annual-meeting/abstracts"
+        },
+        {
+          "data_cutoff": null,
+          "label": "NCT07460362 联合研究登记",
+          "locator": "Study Design / Participation Criteria",
+          "published_at": "2026-03-10",
+          "url": "https://clinicaltrials.gov/study/NCT07460362"
+        },
+        {
+          "data_cutoff": "2025-09-08",
+          "label": "ASCO 2026 #7006 单药随访原始摘要",
+          "locator": "Results；区分数据截止与发布日",
+          "published_at": "2026-05-27",
+          "url": "https://www.asco.org/abstracts-presentations/260518"
+        },
+        {
+          "data_cutoff": "2023-09-04",
+          "label": "NP30179 同行评议原论文",
+          "locator": "全文 Results、Tables 2–5；DOI 10.1200/JCO.23.02470",
+          "published_at": "2024-10-04",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39365960/"
+        },
+        {
+          "data_cutoff": null,
+          "label": "TITANium 公开登记",
+          "locator": "Identification / Design / Eligibility / Posted Results",
+          "published_at": "2026-09-30",
+          "url": "https://clinicaltrials.gov/study/NCT06542250"
+        },
+        {
+          "data_cutoff": null,
+          "label": "AZD5492 申办方机制与研究说明",
+          "locator": "Study drug：两个 CD20 结合域，TCR 与 CD8 各一个结合域",
+          "published_at": null,
+          "url": "https://us.az-oncology-pipeline.com/home/tumor-type/hematological/cll/titanium.html"
+        },
+        {
+          "data_cutoff": null,
+          "label": "ASH 2026 #6 MANGROVE 原始会议摘要",
+          "locator": "首次接受治疗、移植不适合人群，独立评审 PFS HR 0.57（95% CI 0.43–0.76）",
+          "published_at": "2026-11-04",
+          "url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=695083"
+        },
+        {
+          "data_cutoff": null,
+          "label": "GLOBRYTE 活跃注册",
+          "locator": "抗 CD20×CD3 单药与研究者选择的随机 III 期",
+          "published_at": null,
+          "url": "https://clinicaltrials.gov/study/NCT06084936"
+        }
+      ],
+      "summary": "当前无法重新核对ASH 官方摘要。等待重新核验。",
+      "title": "ASH 1780｜双耐药复发/难治 MCL 的早期应答与持久性缺口",
+      "trial_ids": [
+        "NCT07460362",
+        "NCT06542250",
+        "NCT03075696",
+        "NCT06084936"
+      ]
+    },
+    {
+      "assessment": [],
+      "data_cutoff": null,
+      "discovered_at": "2026-11-18T11:47:00+08:00",
+      "findings": [],
+      "id": "ash:2026:6",
+      "limitations": [
+        "当前无法重新核对ASH 官方摘要。等待重新核验。"
+      ],
+      "next_steps": [],
+      "presentation_date": "2026-12-13",
+      "published_at": "2026-11-04",
+      "review_status": "review_stale",
+      "source_url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=695083",
+      "sources": [
+        {
+          "data_cutoff": null,
+          "label": "ASH 2026 #6 MANGROVE 原始会议摘要",
+          "locator": "Methods / Results；PFS / safety",
+          "published_at": "2026-11-04",
+          "url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=695083"
+        },
+        {
+          "data_cutoff": null,
+          "label": "MANGROVE 登记 NCT04002297",
+          "locator": "Study Design / eligibility；与已有登记监测项匹配",
+          "published_at": "2026-09-30",
+          "url": "https://clinicaltrials.gov/study/NCT04002297"
+        },
+        {
+          "data_cutoff": null,
+          "label": "TITANium 公开登记 NCT06542250",
+          "locator": "Eligibility / Study Design",
+          "published_at": "2026-09-30",
+          "url": "https://clinicaltrials.gov/study/NCT06542250"
+        },
+        {
+          "data_cutoff": "2024-02-15",
+          "label": "ECHO｜一线 BR 对照与维持治疗",
+          "locator": "2025 年主要分析，Methods 与 Results；BR 对照 299 人，独立评审 PFS；正文图 2A",
+          "published_at": "2025-05-01",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40311141/"
+        },
+        {
+          "data_cutoff": null,
+          "label": "SHINE｜一线 BR 对照与维持治疗",
+          "locator": "2022 年主要分析，Methods 与 Results；BR 对照 262 人，研究者评估 PFS",
+          "published_at": "2022-06-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35657079/"
+        }
+      ],
+      "summary": "当前无法重新核对ASH 官方摘要。等待重新核验。",
+      "title": "ASH 6｜MANGROVE 一线随机 III 期 PFS 读出",
+      "trial_ids": [
+        "NCT04002297",
+        "NCT06542250"
+      ]
+    },
+    {
+      "assessment": [],
+      "data_cutoff": "2026-06-01",
+      "discovered_at": "2026-11-18T03:53:58.476198+00:00",
+      "findings": [],
+      "id": "ash:2026:237",
+      "limitations": [
+        "当前无法重新核对ASH 官方摘要。等待重新核验。"
+      ],
+      "next_steps": [],
+      "presentation_date": "2026-12-12",
+      "published_at": "2026-11-04",
+      "review_status": "review_stale",
+      "source_url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=689800",
+      "sources": [
+        {
+          "data_cutoff": "2026-06-01",
+          "label": "ASH 2026 #237 官方摘要",
+          "locator": "ABSTRACT：Methods；Results 各段；口头报告场次",
+          "published_at": "2026-11-04",
+          "url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=689800"
+        },
+        {
+          "data_cutoff": null,
+          "label": "ASH #237 官方场次",
+          "locator": "#237；12 月 12 日口头报告安排",
+          "published_at": null,
+          "url": "https://onlineprogram.hematology.org/session-details.aspx?sid=118962"
+        },
+        {
+          "data_cutoff": null,
+          "label": "ASH 年会摘要发布时间表",
+          "locator": "Key Dates and Deadlines",
+          "published_at": null,
+          "url": "https://www.hematology.org/meetings/annual-meeting/abstracts"
+        },
+        {
+          "data_cutoff": null,
+          "label": "LyCon 登记 NCT06192888",
+          "locator": "Identification / Eligibility / Arms / Enrollment / Posted Results",
+          "published_at": "2026-03-27",
+          "url": "https://clinicaltrials.gov/study/NCT06192888"
+        },
+        {
+          "data_cutoff": null,
+          "label": "ASH 2026 #1780 官方摘要",
+          "locator": "Methods / Results：NCT07460362、分母、维持治疗",
+          "published_at": "2026-11-04",
+          "url": "https://onlineprogram.hematology.org/paper-details.aspx?pid=688136"
+        },
+        {
+          "data_cutoff": null,
+          "label": "NCT07460362 研究登记",
+          "locator": "Identification / Sponsor / Study Design",
+          "published_at": "2026-03-10",
+          "url": "https://clinicaltrials.gov/study/NCT07460362"
+        },
+        {
+          "data_cutoff": null,
+          "label": "TITANium 登记 NCT06542250",
+          "locator": "Study Design / Arms / Eligibility / Posted Results",
+          "published_at": "2026-09-30",
+          "url": "https://clinicaltrials.gov/study/NCT06542250"
+        },
+        {
+          "data_cutoff": null,
+          "label": "CAR-T 后进展历史队列原论文｜Epstein-Peterson 等",
+          "locator": "Methods：从进展起算；Results：384 名 CAR-T 接受者、135 名进展者及后续治疗分布；PMCID PMC12848353",
+          "published_at": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40763269/"
+        }
+      ],
+      "summary": "当前无法重新核对ASH 官方摘要。等待重新核验。",
+      "title": "ASH #237 · LyCon 试点的 CAR-T 暴露分层",
+      "trial_ids": [
+        "NCT06192888",
+        "NCT07460362",
+        "NCT06542250"
+      ]
+    }
+  ],
+  "registry_event_ids": [
+    "d60b5598485676c1b5f2878c",
+    "5d902470d281c85d183dbe94",
+    "05e7311317cbf8cc5803817f",
+    "22633658ce5c59d38dc83e8d"
+  ],
+  "reviewed_regulatory": [
+    {
+      "date": "2026-05-13",
+      "group": "beqalzi-mcl",
+      "id": "beqalzi-mcl:final_decision",
+      "locator": "第 1 页 Accelerated Approval；NDA 220711",
+      "relation": "population",
+      "reviewed": true,
+      "stage": "final_decision",
+      "status": "历史资料",
+      "summary": "FDA 加速批准既往至少两线、含 BTK 抑制剂治疗的成人复发或难治性 MCL 适应证。该决定影响美国后线治疗顺序和既往 BCL-2 抑制剂暴露的构成，可帮助解读双耐药队列的代表性。",
+      "title": "FDA 加速批准函｜Sonrotoclax",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220711Orig1s000Approv.pdf",
+      "vote": null
+    },
+    {
+      "date": "2026-05-13",
+      "group": "beqalzi-mcl",
+      "id": "beqalzi-mcl:fda_position",
+      "locator": "封面 Recommendation on Regulatory Action；NDA 220711",
+      "relation": "population",
+      "reviewed": true,
+      "stage": "fda_position",
+      "status": "历史资料",
+      "summary": "审评团队建议加速批准。BCL-2 抑制剂提供同病种和后线人群的监管路径参照。",
+      "title": "FDA 多学科审评｜Sonrotoclax",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2026/220711Orig1s000MultidisciplineR.pdf",
+      "vote": null
+    },
+    {
+      "date": "2026-05-13",
+      "group": "beqalzi-mcl",
+      "id": "beqalzi-mcl:evidence_summary",
+      "locator": "Efficacy and Safety，第 1–2 段",
+      "relation": "population",
+      "reviewed": true,
+      "stage": "evidence_summary",
+      "status": "历史资料",
+      "summary": "BGB-11417-201（NCT05471843）为单臂研究。FDA 根据 103 名既往接受抗 CD20 和 BTKi 治疗的成人评估疗效。独立评审 ORR 为 52%（95% CI 42–62），中位缓解持续时间为 15.8 个月（95% CI 7.4–未能估计）。跨研究比较需核对人群、随访和终点。",
+      "title": "FDA 批准所据研究｜Sonrotoclax",
+      "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-sonrotoclax-relapsed-or-refractory-mantle-cell-lymphoma",
+      "vote": null
+    },
+    {
+      "date": "2025-07-18",
+      "group": "starglo-761309-s001",
+      "id": "starglo-761309-s001:sponsor_reported_action",
+      "locator": "2025-07-18 公告首段；sBLA 761309/S-001",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "sponsor_reported_action",
+      "status": "申办方披露（历史公告）",
+      "summary": "Genentech 公告报告 FDA 已发出完整回复函（CRL）。该公告属于申办方披露；FDA 函件正文另行监测。",
+      "title": "Genentech 公告｜补充申请收到 CRL",
+      "url": "https://www.gene.com/media/press-releases/15070/2025-07-18/genentech-provides-update-on-supplementa",
+      "vote": null
+    },
+    {
+      "date": "2025-05-20",
+      "group": "starglo-761309-s001",
+      "id": "starglo-761309-s001:vote",
+      "locator": "10/14 页，May 20 morning session，问题 2",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "vote",
+      "status": "历史资料",
+      "summary": "问题是 STARGLO 人群与试验结果对拟议美国人群的适用性。正式纪要记载赞成 1、反对 8、弃权 0。",
+      "title": "ODAC 正式表决｜STARGLO",
+      "url": "https://www.fda.gov/media/187747/download#page=10",
+      "vote": {
+        "abstain": 0,
+        "no": 8,
+        "yes": 1
+      }
+    },
+    {
+      "date": "2025-05-20",
+      "group": "starglo-761309-s001",
+      "id": "starglo-761309-s001:sponsor_position",
+      "locator": "STARGLO Efficacy and Safety；Regional Subgroup Analysis；Benefit-Risk",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "sponsor_position",
+      "status": "历史资料",
+      "summary": "申办方引用随机试验总体生存改善，讨论区域亚组和后续治疗差异，主张总体结果可支持拟议用途。",
+      "title": "Genentech 申办方立场｜STARGLO",
+      "url": "https://www.fda.gov/media/186558/download",
+      "vote": null
+    },
+    {
+      "date": "2025-05-20",
+      "group": "starglo-761309-s001",
+      "id": "starglo-761309-s001:fda_position",
+      "locator": "印刷页 42–64、77–78；The FDA’s Position",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "fda_position",
+      "status": "历史资料",
+      "summary": "FDA 审查总人群疗效、区域差异及研究对美国目标人群和实践的适用性。北美样本有限，区域疗效差异增加解释不确定性。",
+      "title": "FDA 审评立场｜STARGLO",
+      "url": "https://www.fda.gov/media/186525/download#page=78",
+      "vote": null
+    },
+    {
+      "date": "2025-05-20",
+      "group": "starglo-761309-s001",
+      "id": "starglo-761309-s001:agenda",
+      "locator": "第 1–2 页，Columvi 早场",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "agenda",
+      "status": "历史资料",
+      "summary": "早场审议 sBLA 761309/S-001，拟用于不适合自体移植的复发或难治性 DLBCL。",
+      "title": "历史 ODAC 议程｜Glofitamab + GemOx",
+      "url": "https://www.fda.gov/media/186520/download",
+      "vote": null
+    },
+    {
+      "date": "2025-05-16",
+      "group": "starglo-761309-s001",
+      "id": "starglo-761309-s001:materials",
+      "locator": "目录；FDA 立场印刷页 42、72、77；FDA-2025-N-1107",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "materials",
+      "status": "历史资料",
+      "summary": "同一文件收录双方文本，目录分别标注 FDA 的疗效、安全性与美国人群适用性章节。",
+      "title": "FDA 与 Genentech 合并简报｜STARGLO",
+      "url": "https://www.fda.gov/media/186525/download",
+      "vote": null
+    },
+    {
+      "date": "2025-05-08",
+      "group": "starglo-761309-s001",
+      "id": "starglo-761309-s001:meeting_notice",
+      "locator": "Event Materials；FDA-2025-N-1107；FR Doc. 2025-08060",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "meeting_notice",
+      "status": "历史资料",
+      "summary": "公开议程、公众提交意见入口及会议材料。联邦公告将 BLA 761309/S-001 列入 5 月 20 日早场。",
+      "title": "FDA 会议公告｜Glofitamab + GemOx",
+      "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/may-20-21-2025-meeting-oncologic-drugs-advisory-committee-05202025",
+      "vote": null
+    },
+    {
+      "date": "2024-05-30",
+      "group": "breyanzi-mcl",
+      "id": "breyanzi-mcl:final_decision",
+      "locator": "第 1 页 SUPPLEMENT APPROVAL；STN BL 125714/227",
+      "relation": "population",
+      "reviewed": true,
+      "stage": "final_decision",
+      "status": "历史资料",
+      "summary": "FDA 批准既往至少两线、含 BTK 抑制剂治疗的成人复发或难治性 MCL 适应证。",
+      "title": "FDA 批准函｜Liso-cel 用于 MCL",
+      "url": "https://www.fda.gov/media/178992/download",
+      "vote": null
+    },
+    {
+      "date": "2024-05-15",
+      "group": "breyanzi-mcl",
+      "id": "breyanzi-mcl:fda_position",
+      "locator": "Section 1.1；STN BL 125714/227；TRANSCEND-MCL",
+      "relation": "population",
+      "reviewed": true,
+      "stage": "fda_position",
+      "status": "历史资料",
+      "summary": "审评团队建议传统批准。与 TITANium 有部分复发或难治性 MCL 人群重叠，产品为 CD19 CAR-T。",
+      "title": "FDA 临床审评｜Liso-cel 用于 MCL",
+      "url": "https://www.fda.gov/media/179344/download",
+      "vote": null
+    },
+    {
+      "date": "2023-12-18",
+      "group": "imbruvica-mcl",
+      "id": "imbruvica-mcl:withdrawal",
+      "locator": "FR Doc. 2023-27662；FDA-2023-N-5344；DATES 与 SUPPLEMENTARY INFORMATION",
+      "relation": "population",
+      "reviewed": true,
+      "stage": "withdrawal",
+      "status": "历史资料",
+      "summary": "FDA 曾拟召集 ODAC。申办方于 2023-04-06 主动申请撤回并放弃听证；正式撤回于联邦公报发布日生效。",
+      "title": "FDA 撤回适应证｜Ibrutinib",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2023-12-18/pdf/2023-27662.pdf",
+      "vote": null
+    },
+    {
+      "date": "2023-06-15",
+      "group": "columvi-original",
+      "id": "columvi-original:final_decision",
+      "locator": "首段与 NP30179；BLA 761309 原始申请",
+      "relation": "mechanism",
+      "reviewed": true,
+      "stage": "final_decision",
+      "status": "历史资料",
+      "summary": "既往至少两线后特定复发或难治性大 B 细胞淋巴瘤的原始适应证。可用于比较 CD20×CD3 同类机制与审评路径。",
+      "title": "FDA 加速批准｜Glofitamab 单药",
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/fda-grants-accelerated-approval-glofitamab-gxbm-selected-relapsed-or-refractory-large-b-cell",
+      "vote": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+MCL 项目条件评估 · TITANium
+
+原始材料待重新核验
+核对摘要版本、证据字段和公开日期后再恢复当前评估。
+https://onlineprogram.hematology.org/paper-details.aspx?pid=688136
+
+TITANium 官方登记
+供复核研究设计、人群与分析条件。
+https://clinicaltrials.gov/study/NCT06542250
+
+请在公司批准的环境使用已授权的当前项目文件。先确认 TPP（目标产品特征）与方案、SAP（统计分析计划）版本，列出目标人群、既往 BTKi／BCL2 抑制剂及 CAR-T 暴露、终点定义与成熟度、剂量和安全阈值。按条记录原件定位、分析集、分母、数据截止、缺口和适用性。针对每个决策分支给出内部结论、下一步动作、责任岗位和触发复评的公开证据。核对目标地区、公司递交时间表、当期数据截止及已有监管沟通承诺，逐项选择本次维持、补分析或建议讨论，并给出复评日期。仅在公司批准的环境处理保密项目材料，勿随外部网页检索或服务请求发送。
+
+固定版证据与公文定位
+https://autumnlrb.github.io/mcl-registry-updates/evidence/titanium-f3851da697659b26add5f4e6.json
